@@ -37,7 +37,6 @@ import { TranslateService } from '@ngx-translate/core'
         </button>
       </ion-list>
     </ion-content>
-
   </ion-menu>
   <ion-nav #content [root]="rootPage"></ion-nav>`
 })
