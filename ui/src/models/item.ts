@@ -7,13 +7,11 @@
  * The Items service manages creating instances of Item, so go ahead and rename
  * that something that fits your app as well.
  */
-export class Item {
 
-  constructor(private fields: any) {
-    // Quick and dirty extend/assign fields to this model
-    for (let f in fields) {
-      this[f] = fields[f];
-    }
+import {LktLucket} from "../../../ts/model/luckets";
+
+export class Item extends LktLucket {
+  constructor(fields: any){
+    super(fields); // call to default constructor added implicitly
   }
-
 }

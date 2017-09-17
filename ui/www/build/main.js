@@ -565,8 +565,10 @@ var TutorialPage = (function () {
             "TUTORIAL_SLIDE2_DESCRIPTION",
             "TUTORIAL_SLIDE3_TITLE",
             "TUTORIAL_SLIDE3_DESCRIPTION",
+            "TUTORIAL_SLIDE3_EXAMPLE",
             "TUTORIAL_SLIDE4_TITLE",
             "TUTORIAL_SLIDE4_DESCRIPTION",
+            "TUTORIAL_SLIDE4_EXAMPLE",
         ]).subscribe(function (values) {
             console.log('Loaded values', values);
             _this.slides = [
@@ -584,6 +586,7 @@ var TutorialPage = (function () {
                     title: values.TUTORIAL_SLIDE3_TITLE,
                     description: values.TUTORIAL_SLIDE3_DESCRIPTION,
                     image: 'assets/img/ica-slidebox-img-3.png',
+                    example: values.TUTORIAL_SLIDE3_EXAMPLE,
                 },
                 {
                     title: values.TUTORIAL_SLIDE4_TITLE,
@@ -614,7 +617,7 @@ var TutorialPage = (function () {
 }());
 TutorialPage = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-        selector: 'page-tutorial',template:/*ion-inline-start:"/Users/pabloelustondo/lucketslive/ui/src/pages/tutorial/tutorial.html"*/'<ion-header no-shadow>\n  <ion-navbar>\n    <ion-buttons end *ngIf="showSkip">\n      <button ion-button (click)="startApp()" color="primary">{{ \'TUTORIAL_SKIP_BUTTON\' | translate}}</button>\n    </ion-buttons>\n  </ion-navbar>\n</ion-header>\n\n<ion-content no-bounce>\n  <ion-slides pager="true" (ionSlideWillChange)="onSlideChangeStart($event)">\n    <ion-slide *ngFor="let slide of slides">\n      <img [src]="slide.image" class="slide-image" />\n      <h2 class="slide-title" [innerHTML]="slide.title"></h2>\n      <p [innerHTML]="slide.description"></p>\n    </ion-slide>\n    <ion-slide>\n      <img src="assets/img/ica-slidebox-img-5.png" class="slide-image" />\n      <h2 class="slide-title">{{ \'TUTORIAL_SLIDE5_TITLE\' | translate }}</h2>\n      <button ion-button icon-end large clear (click)="startApp()">\n        {{ \'TUTORIAL_CONTINUE_BUTTON\' | translate }}\n        <ion-icon name="arrow-forward"></ion-icon>\n      </button>\n    </ion-slide>\n  </ion-slides>\n</ion-content>\n'/*ion-inline-end:"/Users/pabloelustondo/lucketslive/ui/src/pages/tutorial/tutorial.html"*/
+        selector: 'page-tutorial',template:/*ion-inline-start:"/Users/pabloelustondo/lucketslive/ui/src/pages/tutorial/tutorial.html"*/'<ion-header no-shadow>\n  <ion-navbar>\n    <ion-buttons end *ngIf="showSkip">\n      <button ion-button (click)="startApp()" color="primary">{{ \'TUTORIAL_SKIP_BUTTON\' | translate}}</button>\n    </ion-buttons>\n  </ion-navbar>\n</ion-header>\n\n<ion-content no-bounce>\n  <ion-slides pager="true" (ionSlideWillChange)="onSlideChangeStart($event)">\n    <ion-slide *ngFor="let slide of slides">\n      <img [src]="slide.image" class="slide-image" />\n      <h2 class="slide-title" [innerHTML]="slide.title"></h2>\n      <p [innerHTML]="slide.description"></p>\n      <p *ngIf="slide.example" [innerHTML]="slide.example"></p>\n    </ion-slide>\n    <ion-slide>\n      <img src="assets/img/ica-slidebox-img-5.png" class="slide-image" />\n      <h2 class="slide-title">{{ \'TUTORIAL_SLIDE5_TITLE\' | translate }}</h2>\n      <button ion-button icon-end large clear (click)="startApp()">\n        {{ \'TUTORIAL_CONTINUE_BUTTON\' | translate }}\n        <ion-icon name="arrow-forward"></ion-icon>\n      </button>\n    </ion-slide>\n  </ion-slides>\n</ion-content>\n'/*ion-inline-end:"/Users/pabloelustondo/lucketslive/ui/src/pages/tutorial/tutorial.html"*/
     }),
     __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavController */]) === "function" && _a || Object, typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* MenuController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* MenuController */]) === "function" && _b || Object, typeof (_c = typeof __WEBPACK_IMPORTED_MODULE_3__ngx_translate_core__["c" /* TranslateService */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_3__ngx_translate_core__["c" /* TranslateService */]) === "function" && _c || Object])
 ], TutorialPage);
@@ -1453,6 +1456,8 @@ MyApp = __decorate([
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return Item; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__ts_model_luckets__ = __webpack_require__(311);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__ts_model_luckets___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__ts_model_luckets__);
 /**
  * A generic model that our Master-Detail pages list, create, and delete.
  *
@@ -1462,18 +1467,41 @@ MyApp = __decorate([
  * The Items service manages creating instances of Item, so go ahead and rename
  * that something that fits your app as well.
  */
-var Item = (function () {
+var __extends = (this && this.__extends) || (function () {
+    var extendStatics = Object.setPrototypeOf ||
+        ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
+        function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
+    return function (d, b) {
+        extendStatics(d, b);
+        function __() { this.constructor = d; }
+        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+    };
+})();
+
+var Item = (function (_super) {
+    __extends(Item, _super);
     function Item(fields) {
-        this.fields = fields;
-        // Quick and dirty extend/assign fields to this model
-        for (var f in fields) {
-            this[f] = fields[f];
-        }
+        return _super.call(this, fields) || this;
     }
     return Item;
-}());
+}(__WEBPACK_IMPORTED_MODULE_0__ts_model_luckets__["LktLucket"]));
 
 //# sourceMappingURL=item.js.map
+
+/***/ }),
+
+/***/ 311:
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+/**
+ * Created by pabloelustondo on 2017-09-02.
+ */
+
+class LktLucket {
+}
+exports.LktLucket = LktLucket;
+//# sourceMappingURL=luckets.js.map
 
 /***/ }),
 
