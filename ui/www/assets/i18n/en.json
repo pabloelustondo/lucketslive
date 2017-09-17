@@ -17,18 +17,21 @@
   "TUTORIAL_SKIP_BUTTON" : "Skip",
   "TUTORIAL_CONTINUE_BUTTON" : "Continue",
 
-  "TUTORIAL_SLIDE1_TITLE": "Welcome to the Ionic Super Starter",
-  "TUTORIAL_SLIDE1_DESCRIPTION": "The <b>Ionic Super Starter</b> is a fully-featured Ionic starter with many pre-built pages and best practices.",
+  "TUTORIAL_SLIDE1_TITLE": "Welcome to Luckets, a smart way to organize your life and do shit that matters",
+  "TUTORIAL_SLIDE1_DESCRIPTION": "<b>Luckets</b> is a method for living smarter, supported by cool technology, to help you live a bit closer to your real potential",
 
-  "TUTORIAL_SLIDE2_TITLE": "How to use the Super Starter",
-  "TUTORIAL_SLIDE2_DESCRIPTION": "Assemble the various page types you want and remove the ones you don't. We've provided many common mobile app page layouts, like login and signup pages, tabs, and this tutorial page.",
+  "TUTORIAL_SLIDE2_TITLE": "The first thing in this method is to define all the buckets in your life (luckets)",
+  "TUTORIAL_SLIDE2_DESCRIPTION": "Each lucket represent something important in your life such as: Health, Family, Mind, Money, Friends, Work, etc. Anything you care about should have at least a lucket. Do not forget anything. When this is done, stop doing anything that does not belong to your luckets. That would be a waste of time",
 
-  "TUTORIAL_SLIDE3_TITLE": "Getting Started",
-  "TUTORIAL_SLIDE3_DESCRIPTION": "Need help? Check out the Super Starter README for a full tutorial",
+  "TUTORIAL_SLIDE3_TITLE": "After you luckets are defined, sincerely assess their status.",
+  "TUTORIAL_SLIDE3_DESCRIPTION": "At Luckets we like simple. We use circles with primary colors to show the status of a lucket. Blue is perfection. You want to keep it like that, but make sure you do not overdue, other buckets may need you more. Green is pretty good but keep putting attention as you can still improve. Yellow is warning, it needs special attention, make sure you do something. Red is pretty bad, please do something asap.. White is neglect. You decide not to care about this lucket but that is still ok with your life. Maybe becuase that white lucket represents something nice to have but not critical to your life. Black is tragic. You need to stop everything else and take care of this lucket. Black is a show stopper.",
 
-  "TUTORIAL_SLIDE4_TITLE": "Ready to Play?",
+  "TUTORIAL_SLIDE4_TITLE": "Add actions to your buckets and try to make then blue at the end of the sprint/week",
+  "TUTORIAL_SLIDE4_DESCRIPTION": "Similar to circles for status, we use colored squares to show the status of actions. Again, blue means 'done' you should stop. Green means almost done, something done, nice job but keep doing it. Yellow means not done, needs attention. Red means that we our action is actually causing or caused some harm. White not done but we do not care, neglect. and Black is not done and you should stop anything else to just do this. ",
 
-  "WELCOME_INTRO" : "The starting point for your next great Ionic app",
+  "TUTORIAL_SLIDE5_TITLE": "Now you know what do do. Try your best every day doing what you can. Carpe diem",
+
+  "WELCOME_INTRO" : "Ok, let's do this",
 
   "SETTINGS_TITLE": "Settings",
   "SETTINGS_OPTION1": "Option 1",

@@ -565,6 +565,8 @@ var TutorialPage = (function () {
             "TUTORIAL_SLIDE2_DESCRIPTION",
             "TUTORIAL_SLIDE3_TITLE",
             "TUTORIAL_SLIDE3_DESCRIPTION",
+            "TUTORIAL_SLIDE4_TITLE",
+            "TUTORIAL_SLIDE4_DESCRIPTION",
         ]).subscribe(function (values) {
             console.log('Loaded values', values);
             _this.slides = [
@@ -582,6 +584,11 @@ var TutorialPage = (function () {
                     title: values.TUTORIAL_SLIDE3_TITLE,
                     description: values.TUTORIAL_SLIDE3_DESCRIPTION,
                     image: 'assets/img/ica-slidebox-img-3.png',
+                },
+                {
+                    title: values.TUTORIAL_SLIDE4_TITLE,
+                    description: values.TUTORIAL_SLIDE4_DESCRIPTION,
+                    image: 'assets/img/ica-slidebox-img-4.png',
                 }
             ];
         });
@@ -607,11 +614,12 @@ var TutorialPage = (function () {
 }());
 TutorialPage = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-        selector: 'page-tutorial',template:/*ion-inline-start:"/Users/pabloelustondo/lucketslive/ui/src/pages/tutorial/tutorial.html"*/'<ion-header no-shadow>\n  <ion-navbar>\n    <ion-buttons end *ngIf="showSkip">\n      <button ion-button (click)="startApp()" color="primary">{{ \'TUTORIAL_SKIP_BUTTON\' | translate}}</button>\n    </ion-buttons>\n  </ion-navbar>\n</ion-header>\n\n<ion-content no-bounce>\n  <ion-slides pager="true" (ionSlideWillChange)="onSlideChangeStart($event)">\n    <ion-slide *ngFor="let slide of slides">\n      <img [src]="slide.image" class="slide-image" />\n      <h2 class="slide-title" [innerHTML]="slide.title"></h2>\n      <p [innerHTML]="slide.description"></p>\n    </ion-slide>\n    <ion-slide>\n      <img src="assets/img/ica-slidebox-img-4.png" class="slide-image" />\n      <h2 class="slide-title">{{ \'TUTORIAL_SLIDE4_TITLE\' | translate }}</h2>\n      <button ion-button icon-end large clear (click)="startApp()">\n        {{ \'TUTORIAL_CONTINUE_BUTTON\' | translate }}\n        <ion-icon name="arrow-forward"></ion-icon>\n      </button>\n    </ion-slide>\n  </ion-slides>\n</ion-content>\n'/*ion-inline-end:"/Users/pabloelustondo/lucketslive/ui/src/pages/tutorial/tutorial.html"*/
+        selector: 'page-tutorial',template:/*ion-inline-start:"/Users/pabloelustondo/lucketslive/ui/src/pages/tutorial/tutorial.html"*/'<ion-header no-shadow>\n  <ion-navbar>\n    <ion-buttons end *ngIf="showSkip">\n      <button ion-button (click)="startApp()" color="primary">{{ \'TUTORIAL_SKIP_BUTTON\' | translate}}</button>\n    </ion-buttons>\n  </ion-navbar>\n</ion-header>\n\n<ion-content no-bounce>\n  <ion-slides pager="true" (ionSlideWillChange)="onSlideChangeStart($event)">\n    <ion-slide *ngFor="let slide of slides">\n      <img [src]="slide.image" class="slide-image" />\n      <h2 class="slide-title" [innerHTML]="slide.title"></h2>\n      <p [innerHTML]="slide.description"></p>\n    </ion-slide>\n    <ion-slide>\n      <img src="assets/img/ica-slidebox-img-5.png" class="slide-image" />\n      <h2 class="slide-title">{{ \'TUTORIAL_SLIDE5_TITLE\' | translate }}</h2>\n      <button ion-button icon-end large clear (click)="startApp()">\n        {{ \'TUTORIAL_CONTINUE_BUTTON\' | translate }}\n        <ion-icon name="arrow-forward"></ion-icon>\n      </button>\n    </ion-slide>\n  </ion-slides>\n</ion-content>\n'/*ion-inline-end:"/Users/pabloelustondo/lucketslive/ui/src/pages/tutorial/tutorial.html"*/
     }),
-    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* MenuController */], __WEBPACK_IMPORTED_MODULE_3__ngx_translate_core__["c" /* TranslateService */]])
+    __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavController */]) === "function" && _a || Object, typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* MenuController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* MenuController */]) === "function" && _b || Object, typeof (_c = typeof __WEBPACK_IMPORTED_MODULE_3__ngx_translate_core__["c" /* TranslateService */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_3__ngx_translate_core__["c" /* TranslateService */]) === "function" && _c || Object])
 ], TutorialPage);
 
+var _a, _b, _c;
 //# sourceMappingURL=tutorial.js.map
 
 /***/ }),
