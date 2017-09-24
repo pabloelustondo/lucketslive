@@ -11,7 +11,7 @@ export interface Slide {
   title: string;
   description: string;
   image: string;
-  example:string;
+  example?:string;
 }
 
 @Component({
@@ -33,6 +33,12 @@ export class TutorialPage {
       "TUTORIAL_SLIDE4_TITLE",
       "TUTORIAL_SLIDE4_DESCRIPTION",
       "TUTORIAL_SLIDE4_EXAMPLE",
+      "TUTORIAL_SLIDE5_TITLE",
+      "TUTORIAL_SLIDE5_DESCRIPTION",
+      "TUTORIAL_SLIDE5_EXAMPLE",
+      "TUTORIAL_SLIDE6_TITLE",
+      "TUTORIAL_SLIDE6_DESCRIPTION",
+      "TUTORIAL_SLIDE6_EXAMPLE",
     ]).subscribe(
       (values) => {
         console.log('Loaded values', values);
@@ -57,6 +63,16 @@ export class TutorialPage {
             title: values.TUTORIAL_SLIDE4_TITLE,
             description: values.TUTORIAL_SLIDE4_DESCRIPTION,
             image: 'assets/img/ica-slidebox-img-4.png',
+          },
+          {
+            title: values.TUTORIAL_SLIDE5_TITLE,
+            description: values.TUTORIAL_SLIDE5_DESCRIPTION,
+            image: 'assets/img/ica-slidebox-img-5.png',
+          },
+          {
+            title: values.TUTORIAL_SLIDE6_TITLE,
+            description: values.TUTORIAL_SLIDE6_DESCRIPTION,
+            image: 'assets/img/ica-slidebox-img-6.png',
           }
         ];
       });

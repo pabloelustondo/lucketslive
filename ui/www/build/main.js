@@ -569,6 +569,12 @@ var TutorialPage = (function () {
             "TUTORIAL_SLIDE4_TITLE",
             "TUTORIAL_SLIDE4_DESCRIPTION",
             "TUTORIAL_SLIDE4_EXAMPLE",
+            "TUTORIAL_SLIDE5_TITLE",
+            "TUTORIAL_SLIDE5_DESCRIPTION",
+            "TUTORIAL_SLIDE5_EXAMPLE",
+            "TUTORIAL_SLIDE6_TITLE",
+            "TUTORIAL_SLIDE6_DESCRIPTION",
+            "TUTORIAL_SLIDE6_EXAMPLE",
         ]).subscribe(function (values) {
             console.log('Loaded values', values);
             _this.slides = [
@@ -592,6 +598,16 @@ var TutorialPage = (function () {
                     title: values.TUTORIAL_SLIDE4_TITLE,
                     description: values.TUTORIAL_SLIDE4_DESCRIPTION,
                     image: 'assets/img/ica-slidebox-img-4.png',
+                },
+                {
+                    title: values.TUTORIAL_SLIDE5_TITLE,
+                    description: values.TUTORIAL_SLIDE5_DESCRIPTION,
+                    image: 'assets/img/ica-slidebox-img-5.png',
+                },
+                {
+                    title: values.TUTORIAL_SLIDE6_TITLE,
+                    description: values.TUTORIAL_SLIDE6_DESCRIPTION,
+                    image: 'assets/img/ica-slidebox-img-6.png',
                 }
             ];
         });
@@ -617,7 +633,7 @@ var TutorialPage = (function () {
 }());
 TutorialPage = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-        selector: 'page-tutorial',template:/*ion-inline-start:"/Users/pabloelustondo/lucketslive/ui/src/pages/tutorial/tutorial.html"*/'<ion-header no-shadow>\n  <ion-navbar>\n    <ion-buttons end *ngIf="showSkip">\n      <button ion-button (click)="startApp()" color="primary">{{ \'TUTORIAL_SKIP_BUTTON\' | translate}}</button>\n    </ion-buttons>\n  </ion-navbar>\n</ion-header>\n\n<ion-content no-bounce>\n  <ion-slides pager="true" (ionSlideWillChange)="onSlideChangeStart($event)">\n    <ion-slide *ngFor="let slide of slides">\n      <img [src]="slide.image" class="slide-image" />\n      <h2 class="slide-title" [innerHTML]="slide.title"></h2>\n      <p [innerHTML]="slide.description"></p>\n      <p *ngIf="slide.example" [innerHTML]="slide.example"></p>\n    </ion-slide>\n    <ion-slide>\n      <img src="assets/img/ica-slidebox-img-5.png" class="slide-image" />\n      <h2 class="slide-title">{{ \'TUTORIAL_SLIDE5_TITLE\' | translate }}</h2>\n      <button ion-button icon-end large clear (click)="startApp()">\n        {{ \'TUTORIAL_CONTINUE_BUTTON\' | translate }}\n        <ion-icon name="arrow-forward"></ion-icon>\n      </button>\n    </ion-slide>\n  </ion-slides>\n</ion-content>\n'/*ion-inline-end:"/Users/pabloelustondo/lucketslive/ui/src/pages/tutorial/tutorial.html"*/
+        selector: 'page-tutorial',template:/*ion-inline-start:"/Users/pabloelustondo/lucketslive/ui/src/pages/tutorial/tutorial.html"*/'<ion-header no-shadow>\n  <ion-navbar>\n    <ion-buttons end *ngIf="showSkip">\n      <button ion-button (click)="startApp()" color="primary">{{ \'TUTORIAL_SKIP_BUTTON\' | translate}}</button>\n    </ion-buttons>\n  </ion-navbar>\n</ion-header>\n\n<ion-content no-bounce>\n  <ion-slides pager="true" (ionSlideWillChange)="onSlideChangeStart($event)">\n    <ion-slide *ngFor="let slide of slides">\n      <img [src]="slide.image" class="slide-image" />\n      <h1 class="slide-title" [innerHTML]="slide.title"></h1>\n      <p *ngIf="slide.description" [innerHTML]="slide.description"></p>\n    </ion-slide>\n    <ion-slide>\n      <img src="assets/img/ica-slidebox-img-last.png" class="slide-image" />\n      <h2 class="slide-title">{{ \'TUTORIAL_SLIDE_LAST_TITLE\' | translate }}</h2>\n      <button ion-button icon-end large clear (click)="startApp()">\n        {{ \'TUTORIAL_CONTINUE_BUTTON\' | translate }}\n        <ion-icon name="arrow-forward"></ion-icon>\n      </button>\n    </ion-slide>\n  </ion-slides>\n</ion-content>\n'/*ion-inline-end:"/Users/pabloelustondo/lucketslive/ui/src/pages/tutorial/tutorial.html"*/
     }),
     __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavController */]) === "function" && _a || Object, typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* MenuController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* MenuController */]) === "function" && _b || Object, typeof (_c = typeof __WEBPACK_IMPORTED_MODULE_3__ngx_translate_core__["c" /* TranslateService */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_3__ngx_translate_core__["c" /* TranslateService */]) === "function" && _c || Object])
 ], TutorialPage);
@@ -1200,7 +1216,7 @@ Object(__WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__["a" /* pl
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_26__ionic_native_splash_screen__ = __webpack_require__(219);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_27__ionic_native_status_bar__ = __webpack_require__(216);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_28__ngx_translate_core__ = __webpack_require__(30);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_29__ngx_translate_http_loader__ = __webpack_require__(309);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_29__ngx_translate_http_loader__ = __webpack_require__(310);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -1456,8 +1472,7 @@ MyApp = __decorate([
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return Item; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__ts_model_luckets__ = __webpack_require__(311);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__ts_model_luckets___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__ts_model_luckets__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__ts_model_luckets__ = __webpack_require__(300);
 /**
  * A generic model that our Master-Detail pages list, create, and delete.
  *
@@ -1484,23 +1499,31 @@ var Item = (function (_super) {
         return _super.call(this, fields) || this;
     }
     return Item;
-}(__WEBPACK_IMPORTED_MODULE_0__ts_model_luckets__["LktLucket"]));
+}(__WEBPACK_IMPORTED_MODULE_0__ts_model_luckets__["a" /* LktLucket */]));
 
 //# sourceMappingURL=item.js.map
 
 /***/ }),
 
-/***/ 311:
-/***/ (function(module, exports, __webpack_require__) {
+/***/ 300:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return LktLucket; });
 /**
  * Created by pabloelustondo on 2017-09-02.
  */
+var LktLucket = (function () {
+    function LktLucket(fields) {
+        this.fields = fields;
+        // Quick and dirty extend/assign fields to this model
+        for (var f in fields) {
+            this[f] = fields[f];
+        }
+    }
+    return LktLucket;
+}());
 
-class LktLucket {
-}
-exports.LktLucket = LktLucket;
 //# sourceMappingURL=luckets.js.map
 
 /***/ }),
