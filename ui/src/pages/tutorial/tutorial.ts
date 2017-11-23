@@ -23,8 +23,12 @@ export class TutorialPage {
   showSkip = true;
 
   constructor(public navCtrl: NavController, public menu: MenuController, translate: TranslateService) {
-    translate.get(["TUTORIAL_SLIDE1_TITLE",
+    translate.get(["TUTORIAL_SLIDE0_TITLE",
+      "TUTORIAL_SLIDE0_DESCRIPTION",
+      "TUTORIAL_SLIDE1_TITLE",
       "TUTORIAL_SLIDE1_DESCRIPTION",
+      "TUTORIAL_SLIDE12_TITLE",
+      "TUTORIAL_SLIDE12_DESCRIPTION",
       "TUTORIAL_SLIDE2_TITLE",
       "TUTORIAL_SLIDE2_DESCRIPTION",
       "TUTORIAL_SLIDE3_TITLE",
@@ -44,9 +48,19 @@ export class TutorialPage {
         console.log('Loaded values', values);
         this.slides = [
           {
+            title: values.TUTORIAL_SLIDE0_TITLE,
+            description: values.TUTORIAL_SLIDE0_DESCRIPTION,
+            image: 'assets/img/ica-slidebox-img-0.png',
+          },
+          {
             title: values.TUTORIAL_SLIDE1_TITLE,
             description: values.TUTORIAL_SLIDE1_DESCRIPTION,
             image: 'assets/img/ica-slidebox-img-1.png',
+          },
+          {
+            title: values.TUTORIAL_SLIDE12_TITLE,
+            description: values.TUTORIAL_SLIDE12_DESCRIPTION,
+            image: 'assets/img/ica-slidebox-img-12.png',
           },
           {
             title: values.TUTORIAL_SLIDE2_TITLE,

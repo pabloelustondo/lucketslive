@@ -17,9 +17,13 @@ export class Items {
   constructor(public http: Http) {
     let items = [
       {
-        "name": "Burt Bear",
-        "profilePic": "assets/img/speakers/bear.jpg",
-        "about": "Burt is a Bear."
+        "name": "A1-Mind",
+        "picture": "assets/img/factoryLuckets/a1-mind.png",
+        "description": `You mind is before anything, nothing should be done or plan
+        until your mind is on a resonable level of functioning and control`,
+        "comment":`any news / comments?`,
+        "dayAction":`Check active luckets`,
+        "weekAction":`Calm down, review all your luckets`
       },
       {
         "name": "Charlie Cheetah",

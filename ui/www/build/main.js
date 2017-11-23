@@ -103,7 +103,7 @@ var ListMasterPage = (function () {
 }());
 ListMasterPage = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-        selector: 'page-list-master',template:/*ion-inline-start:"/Users/pabloelustondo/lucketslive/ui/src/pages/list-master/list-master.html"*/'<ion-header>\n\n  <ion-navbar>\n    <ion-title>{{ \'LIST_MASTER_TITLE\' | translate }}</ion-title>\n\n    <ion-buttons end>\n      <button ion-button icon-only (click)="addItem()">\n        <ion-icon name="add"></ion-icon>\n      </button>\n    </ion-buttons>\n  </ion-navbar>\n\n</ion-header>\n\n<ion-content>\n\n  <ion-list>\n    <ion-item-sliding *ngFor="let item of currentItems">\n      <button ion-item (click)="openItem(item)">\n        <ion-avatar item-start>\n          <img [src]="item.profilePic" />\n        </ion-avatar>\n        <h2>{{item.name}}</h2>\n        <p>{{item.about}}</p>\n        <ion-note item-end *ngIf="item.note">{{item.note}}</ion-note>\n      </button>\n\n      <ion-item-options>\n        <button ion-button color="danger" (click)="deleteItem(item)">\n          {{ \'DELETE_BUTTON\' | translate }}\n        </button>\n      </ion-item-options>\n    </ion-item-sliding>\n  </ion-list>\n</ion-content>\n'/*ion-inline-end:"/Users/pabloelustondo/lucketslive/ui/src/pages/list-master/list-master.html"*/
+        selector: 'page-list-master',template:/*ion-inline-start:"/Users/pabloelustondo/lucketslive/ui/src/pages/list-master/list-master.html"*/'<ion-header>\n\n  <ion-navbar>\n    <ion-title>{{ \'LIST_MASTER_TITLE\' | translate }}</ion-title>\n\n    <ion-buttons end>\n      <button ion-button icon-only (click)="addItem()">\n        <ion-icon name="add"></ion-icon>\n      </button>\n    </ion-buttons>\n  </ion-navbar>\n\n</ion-header>\n\n<ion-content>\n\n  <ion-list>\n    <ion-item-sliding *ngFor="let item of currentItems" >\n      <button ion-item (click)="openItem(item)" text-wrap>\n        <ion-avatar item-start>\n          <img class = "picture" [src]="item.picture" />\n        </ion-avatar>\n        <div>  <!-- status row: status, stinky, actions/points -->\n          <div class = "lucketStatus" ></div>\n          <div class = "lucketStink" ></div>\n          <div class = "lucketActionStatus" ></div>\n          <div class = "lucketActionStatus" ></div>\n          <div class = "lucketActionStatus" ></div>\n          <div class = "lucketActionStatus" ></div>\n        </div>\n        <div class = "name"><h2>{{item.name}}</h2></div>\n        <p>{{item.description}}</p>\n        <p>{{item.comment}}</p>\n        <ion-note item-end *ngIf="item.note">{{item.note}}</ion-note>\n      </button>\n\n      <ion-item-options>\n        <button ion-button color="danger" (click)="deleteItem(item)">\n          {{ \'DELETE_BUTTON\' | translate }}\n        </button>\n      </ion-item-options>\n    </ion-item-sliding>\n  </ion-list>\n</ion-content>\n'/*ion-inline-end:"/Users/pabloelustondo/lucketslive/ui/src/pages/list-master/list-master.html"*/
     }),
     __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavController */], __WEBPACK_IMPORTED_MODULE_4__providers_providers__["a" /* Items */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* ModalController */]])
 ], ListMasterPage);
@@ -141,7 +141,7 @@ var ItemDetailPage = (function () {
 }());
 ItemDetailPage = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-        selector: 'page-item-detail',template:/*ion-inline-start:"/Users/pabloelustondo/lucketslive/ui/src/pages/item-detail/item-detail.html"*/'<ion-header>\n\n  <ion-navbar>\n    <ion-title>{{ item.name }}</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content>\n  <div class="item-profile" text-center #profilePic [style.background-image]="\'url(\' + item.profilePic + \')\'">\n  </div>\n\n  <div class="item-detail" padding>\n    <h2>{{item.name}}</h2>\n    <p>{{item.about}}</p>\n  </div>\n</ion-content>\n'/*ion-inline-end:"/Users/pabloelustondo/lucketslive/ui/src/pages/item-detail/item-detail.html"*/
+        selector: 'page-item-detail',template:/*ion-inline-start:"/Users/pabloelustondo/lucketslive/ui/src/pages/item-detail/item-detail.html"*/'<ion-header>\n\n  <ion-navbar>\n    <ion-title>{{ item.name }}</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content>\n  <div class="item-profile" text-center #profilePic [style.background-image]="\'url(\' + item.picture + \')\'"></div>\n    <div class = "lucketStatus" ></div>\n    <div class = "lucketStink" ></div>\n    <div class = "lucketActionStatus" ></div>\n    <div class = "lucketActionStatus" ></div>\n    <div class = "lucketActionStatus" ></div>\n    <div class = "lucketActionStatus" ></div>\n  <div class="item-detail-description">\n    <p>{{item.description}}</p>\n  </div>\n\n\n\n</ion-content>\n'/*ion-inline-end:"/Users/pabloelustondo/lucketslive/ui/src/pages/item-detail/item-detail.html"*/
     }),
     __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavParams */], __WEBPACK_IMPORTED_MODULE_2__providers_providers__["a" /* Items */]])
 ], ItemDetailPage);
@@ -522,7 +522,7 @@ var TabsPage = (function () {
 }());
 TabsPage = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-        selector: 'page-tabs',template:/*ion-inline-start:"/Users/pabloelustondo/lucketslive/ui/src/pages/tabs/tabs.html"*/'<ion-tabs>\n  <ion-tab [root]="tab1Root" [tabTitle]="tab1Title" tabIcon="home"></ion-tab>\n  <ion-tab [root]="tab2Root" [tabTitle]="tab2Title" tabIcon="search"></ion-tab>\n  <ion-tab [root]="tab3Root" [tabTitle]="tab3Title" tabIcon="cog"></ion-tab>\n</ion-tabs>\n'/*ion-inline-end:"/Users/pabloelustondo/lucketslive/ui/src/pages/tabs/tabs.html"*/
+        selector: 'page-tabs',template:/*ion-inline-start:"/Users/pabloelustondo/lucketslive/ui/src/pages/tabs/tabs.html"*/'<ion-tabs>\n  <ion-tab [root]="tab1Root" [tabTitle]="tab1Title"></ion-tab>\n  <ion-tab [root]="tab2Root" [tabTitle]="tab2Title"></ion-tab>\n  <ion-tab [root]="tab3Root" [tabTitle]="tab3Title" tabIcon="cog"></ion-tab>\n</ion-tabs>\n'/*ion-inline-end:"/Users/pabloelustondo/lucketslive/ui/src/pages/tabs/tabs.html"*/
     }),
     __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavController */], __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__["c" /* TranslateService */]])
 ], TabsPage);
@@ -559,8 +559,12 @@ var TutorialPage = (function () {
         this.navCtrl = navCtrl;
         this.menu = menu;
         this.showSkip = true;
-        translate.get(["TUTORIAL_SLIDE1_TITLE",
+        translate.get(["TUTORIAL_SLIDE0_TITLE",
+            "TUTORIAL_SLIDE0_DESCRIPTION",
+            "TUTORIAL_SLIDE1_TITLE",
             "TUTORIAL_SLIDE1_DESCRIPTION",
+            "TUTORIAL_SLIDE12_TITLE",
+            "TUTORIAL_SLIDE12_DESCRIPTION",
             "TUTORIAL_SLIDE2_TITLE",
             "TUTORIAL_SLIDE2_DESCRIPTION",
             "TUTORIAL_SLIDE3_TITLE",
@@ -579,9 +583,19 @@ var TutorialPage = (function () {
             console.log('Loaded values', values);
             _this.slides = [
                 {
+                    title: values.TUTORIAL_SLIDE0_TITLE,
+                    description: values.TUTORIAL_SLIDE0_DESCRIPTION,
+                    image: 'assets/img/ica-slidebox-img-0.png',
+                },
+                {
                     title: values.TUTORIAL_SLIDE1_TITLE,
                     description: values.TUTORIAL_SLIDE1_DESCRIPTION,
                     image: 'assets/img/ica-slidebox-img-1.png',
+                },
+                {
+                    title: values.TUTORIAL_SLIDE12_TITLE,
+                    description: values.TUTORIAL_SLIDE12_DESCRIPTION,
+                    image: 'assets/img/ica-slidebox-img-12.png',
                 },
                 {
                     title: values.TUTORIAL_SLIDE2_TITLE,
@@ -635,10 +649,9 @@ TutorialPage = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
         selector: 'page-tutorial',template:/*ion-inline-start:"/Users/pabloelustondo/lucketslive/ui/src/pages/tutorial/tutorial.html"*/'<ion-header no-shadow>\n  <ion-navbar>\n    <ion-buttons end *ngIf="showSkip">\n      <button ion-button (click)="startApp()" color="primary">{{ \'TUTORIAL_SKIP_BUTTON\' | translate}}</button>\n    </ion-buttons>\n  </ion-navbar>\n</ion-header>\n\n<ion-content no-bounce>\n  <ion-slides pager="true" (ionSlideWillChange)="onSlideChangeStart($event)">\n    <ion-slide *ngFor="let slide of slides">\n      <img [src]="slide.image" class="slide-image" />\n      <h1 class="slide-title" [innerHTML]="slide.title"></h1>\n      <p *ngIf="slide.description" [innerHTML]="slide.description"></p>\n    </ion-slide>\n    <ion-slide>\n      <img src="assets/img/ica-slidebox-img-last.png" class="slide-image" />\n      <h2 class="slide-title">{{ \'TUTORIAL_SLIDE_LAST_TITLE\' | translate }}</h2>\n      <button ion-button icon-end large clear (click)="startApp()">\n        {{ \'TUTORIAL_CONTINUE_BUTTON\' | translate }}\n        <ion-icon name="arrow-forward"></ion-icon>\n      </button>\n    </ion-slide>\n  </ion-slides>\n</ion-content>\n'/*ion-inline-end:"/Users/pabloelustondo/lucketslive/ui/src/pages/tutorial/tutorial.html"*/
     }),
-    __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavController */]) === "function" && _a || Object, typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* MenuController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* MenuController */]) === "function" && _b || Object, typeof (_c = typeof __WEBPACK_IMPORTED_MODULE_3__ngx_translate_core__["c" /* TranslateService */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_3__ngx_translate_core__["c" /* TranslateService */]) === "function" && _c || Object])
+    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* MenuController */], __WEBPACK_IMPORTED_MODULE_3__ngx_translate_core__["c" /* TranslateService */]])
 ], TutorialPage);
 
-var _a, _b, _c;
 //# sourceMappingURL=tutorial.js.map
 
 /***/ }),
@@ -925,9 +938,12 @@ var Items = (function () {
         };
         var items = [
             {
-                "name": "Burt Bear",
-                "profilePic": "assets/img/speakers/bear.jpg",
-                "about": "Burt is a Bear."
+                "name": "A1-Mind",
+                "picture": "assets/img/factoryLuckets/a1-mind.png",
+                "description": "You mind is before anything, nothing should be done or plan\n        until your mind is on a resonable level of functioning and control",
+                "comment": "any news / comments?",
+                "dayAction": "Check active luckets",
+                "weekAction": "Calm down, review all your luckets"
             },
             {
                 "name": "Charlie Cheetah",
@@ -1509,20 +1525,63 @@ var Item = (function (_super) {
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
+/* unused harmony export LktStatus */
+/* unused harmony export LktEntity */
+/* unused harmony export LktAction */
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return LktLucket; });
 /**
  * Created by pabloelustondo on 2017-09-02.
  */
-var LktLucket = (function () {
+var __extends = (this && this.__extends) || (function () {
+    var extendStatics = Object.setPrototypeOf ||
+        ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
+        function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
+    return function (d, b) {
+        extendStatics(d, b);
+        function __() { this.constructor = d; }
+        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+    };
+})();
+/**
+ * Created by pabloelustondo on 2017-09-02.
+ */ var LktStatus;
+(function (LktStatus) {
+    LktStatus[LktStatus["Blue"] = 0] = "Blue";
+    LktStatus[LktStatus["Green"] = 1] = "Green";
+    LktStatus[LktStatus["White"] = 2] = "White";
+    LktStatus[LktStatus["Yellow"] = 3] = "Yellow";
+    LktStatus[LktStatus["Read"] = 4] = "Read";
+    LktStatus[LktStatus["Black"] = 5] = "Black";
+})(LktStatus || (LktStatus = {}));
+;
+var LktEntity = (function () {
+    function LktEntity() {
+    }
+    return LktEntity;
+}());
+
+var LktAction = (function (_super) {
+    __extends(LktAction, _super);
+    function LktAction() {
+        return _super !== null && _super.apply(this, arguments) || this;
+    }
+    return LktAction;
+}(LktEntity));
+
+var LktLucket = (function (_super) {
+    __extends(LktLucket, _super);
     function LktLucket(fields) {
-        this.fields = fields;
+        var _this = 
         // Quick and dirty extend/assign fields to this model
+        _super.call(this) || this;
+        _this.fields = fields;
         for (var f in fields) {
-            this[f] = fields[f];
+            _this[f] = fields[f];
         }
+        return _this;
     }
     return LktLucket;
-}());
+}(LktEntity));
 
 //# sourceMappingURL=luckets.js.map
 

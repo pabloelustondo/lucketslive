@@ -8,11 +8,17 @@
 
 
 <ion-content>
-  <div class="item-profile" text-center #profilePic [style.background-image]="'url(' + item.profilePic + ')'">
+  <div class="item-profile" text-center #profilePic [style.background-image]="'url(' + item.picture + ')'"></div>
+    <div class = "lucketStatus" ></div>
+    <div class = "lucketStink" ></div>
+    <div class = "lucketActionStatus" ></div>
+    <div class = "lucketActionStatus" ></div>
+    <div class = "lucketActionStatus" ></div>
+    <div class = "lucketActionStatus" ></div>
+  <div class="item-detail-description">
+    <p>{{item.description}}</p>
   </div>
 
-  <div class="item-detail" padding>
-    <h2>{{item.name}}</h2>
-    <p>{{item.about}}</p>
-  </div>
+
+
 </ion-content>

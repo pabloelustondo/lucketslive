@@ -1,14 +1,62 @@
 page-item-detail {
   .item-profile {
-    width: 100%;
+    width: 100px;
     background-position: center center;
     background-size: cover;
-    height: 250px;
+    height: 100px;
+    display: inline-block;
+  }
+  .item-profile2 {
+    width: 50px;
+    background-position: center center;
+    background-size: cover;
+    height: 50px;
+    display: inline-block;
   }
 
   .item-detail {
     width: 100%;
     background: white;
     position: absolute;
+    display: inline-block;
   }
+
+  .item-detail-description {
+    width: 100%;
+    background: white;
+    position: absolute;
+  }
+
+  .lucketStatus {
+    margin-bottom: 20px;
+    background: yellow;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;
+    display: inline-block;
+  }
+
+  .lucketStink {
+    margin-bottom: 20px;
+    border-color: transparent transparent red transparent;
+    border-style: solid;
+    border-width: 0px 10px 20px 10px;
+    height: 0px;
+    width: 0px;
+
+    display: inline-block;
+  }
+
+  .lucketActionStatus {
+    margin-bottom: 20px;
+    height: 20px;
+    width: 20px;
+    background: green;
+
+    display: inline-block;
+  }
+
 }

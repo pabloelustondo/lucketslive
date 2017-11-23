@@ -15,13 +15,22 @@
 <ion-content>
 
   <ion-list>
-    <ion-item-sliding *ngFor="let item of currentItems">
-      <button ion-item (click)="openItem(item)">
+    <ion-item-sliding *ngFor="let item of currentItems" >
+      <button ion-item (click)="openItem(item)" text-wrap>
         <ion-avatar item-start>
-          <img [src]="item.profilePic" />
+          <img class = "picture" [src]="item.picture" />
         </ion-avatar>
-        <h2>{{item.name}}</h2>
-        <p>{{item.about}}</p>
+        <div>  <!-- status row: status, stinky, actions/points -->
+          <div class = "lucketStatus" ></div>
+          <div class = "lucketStink" ></div>
+          <div class = "lucketActionStatus" ></div>
+          <div class = "lucketActionStatus" ></div>
+          <div class = "lucketActionStatus" ></div>
+          <div class = "lucketActionStatus" ></div>
+        </div>
+        <div class = "name"><h2>{{item.name}}</h2></div>
+        <p>{{item.description}}</p>
+        <p>{{item.comment}}</p>
         <ion-note item-end *ngIf="item.note">{{item.note}}</ion-note>
       </button>
 
