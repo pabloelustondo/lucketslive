@@ -103,7 +103,7 @@ var ListMasterPage = (function () {
 }());
 ListMasterPage = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-        selector: 'page-list-master',template:/*ion-inline-start:"/Users/pabloelustondo/lucketslive/ui/src/pages/list-master/list-master.html"*/'<ion-header>\n\n  <ion-navbar>\n    <ion-title>{{ \'LIST_MASTER_TITLE\' | translate }}</ion-title>\n\n    <ion-buttons end>\n      <button ion-button icon-only (click)="addItem()">\n        <ion-icon name="add"></ion-icon>\n      </button>\n    </ion-buttons>\n  </ion-navbar>\n\n</ion-header>\n\n<ion-content>\n\n  <ion-list>\n    <ion-item-sliding *ngFor="let item of currentItems" >\n      <button ion-item (click)="openItem(item)" text-wrap>\n        <ion-avatar item-start>\n          <img class = "picture" [src]="item.picture" />\n        </ion-avatar>\n        <div>  <!-- status row: status, stinky, actions/points -->\n          <div class = "lucketStatus" ></div>\n          <div class = "lucketStink" ></div>\n          <div class = "lucketActionStatus" ></div>\n          <div class = "lucketActionStatus" ></div>\n          <div class = "lucketActionStatus" ></div>\n          <div class = "lucketActionStatus" ></div>\n        </div>\n        <div class = "name"><h2>{{item.name}}</h2></div>\n        <p>{{item.description}}</p>\n        <p>{{item.comment}}</p>\n        <ion-note item-end *ngIf="item.note">{{item.note}}</ion-note>\n      </button>\n\n      <ion-item-options>\n        <button ion-button color="danger" (click)="deleteItem(item)">\n          {{ \'DELETE_BUTTON\' | translate }}\n        </button>\n      </ion-item-options>\n    </ion-item-sliding>\n  </ion-list>\n</ion-content>\n'/*ion-inline-end:"/Users/pabloelustondo/lucketslive/ui/src/pages/list-master/list-master.html"*/
+        selector: 'page-list-master',template:/*ion-inline-start:"/Users/pabloelustondo/lucketslive/ui/src/pages/list-master/list-master.html"*/'<ion-header>\n\n  <ion-navbar>\n    <ion-title>{{ \'LIST_MASTER_TITLE\' | translate }}</ion-title>\n\n    <ion-buttons end>\n      <button ion-button icon-only (click)="addItem()">\n        <ion-icon name="add"></ion-icon>\n      </button>\n    </ion-buttons>\n  </ion-navbar>\n\n</ion-header>\n\n<ion-content>\n\n  <ion-list>\n    <ion-item-sliding *ngFor="let item of currentItems" >\n      <button ion-item (click)="openItem(item)" text-wrap>\n        <ion-avatar item-start>\n          <img class = "picture" [src]="item.picture" />\n        </ion-avatar>\n        <div>  <!-- status row: status, stinky, actions/points -->\n          <div class = "lucketStatus" ></div>\n          <div class = "lucketStink" ></div>\n          <div class = "lucketActionStatus" ></div>\n          <div class = "lucketActionStatus" ></div>\n          <div class = "lucketActionStatus" ></div>\n          <div class = "lucketActionStatus" ></div>\n        </div>\n        <div class = "name"><h2>{{item.name}}</h2></div>\n        <div>  <!-- status row: status, stinky, actions/points -->\n          <div class = "lucketSensorStatus" ></div>\n          <div class = "lucketSensorStatus" ></div>\n          <div class = "lucketSensorStatus" ></div>\n          <div class = "lucketSensorStatus" ></div>\n          <div class = "lucketSensorStatus" ></div>\n          <div class = "lucketSensorStatus" ></div>\n        </div>\n        <p>{{item.description}}</p>\n        <p>{{item.comment}}</p>\n        <ion-note item-end *ngIf="item.note">{{item.note}}</ion-note>\n      </button>\n\n      <ion-item-options>\n        <button ion-button color="danger" (click)="deleteItem(item)">\n          {{ \'DELETE_BUTTON\' | translate }}\n        </button>\n      </ion-item-options>\n    </ion-item-sliding>\n  </ion-list>\n</ion-content>\n'/*ion-inline-end:"/Users/pabloelustondo/lucketslive/ui/src/pages/list-master/list-master.html"*/
     }),
     __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavController */], __WEBPACK_IMPORTED_MODULE_4__providers_providers__["a" /* Items */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* ModalController */]])
 ], ListMasterPage);
@@ -559,10 +559,19 @@ var TutorialPage = (function () {
         this.navCtrl = navCtrl;
         this.menu = menu;
         this.showSkip = true;
-        translate.get(["TUTORIAL_SLIDE0_TITLE",
+        translate.get([
+            "TUTORIAL_SLIDE0_TITLE",
             "TUTORIAL_SLIDE0_DESCRIPTION",
+            "TUTORIAL_SLIDE02_TITLE",
+            "TUTORIAL_SLIDE02_DESCRIPTION",
+            "TUTORIAL_SLIDE03_TITLE",
+            "TUTORIAL_SLIDE03_DESCRIPTION",
             "TUTORIAL_SLIDE1_TITLE",
             "TUTORIAL_SLIDE1_DESCRIPTION",
+            "TUTORIAL_SLIDE11_TITLE",
+            "TUTORIAL_SLIDE11_DESCRIPTION",
+            "TUTORIAL_SLIDE111_TITLE",
+            "TUTORIAL_SLIDE111_DESCRIPTION",
             "TUTORIAL_SLIDE12_TITLE",
             "TUTORIAL_SLIDE12_DESCRIPTION",
             "TUTORIAL_SLIDE2_TITLE",
@@ -588,14 +597,29 @@ var TutorialPage = (function () {
                     image: 'assets/img/ica-slidebox-img-0.png',
                 },
                 {
+                    title: values.TUTORIAL_SLIDE02_TITLE,
+                    description: values.TUTORIAL_SLIDE02_DESCRIPTION
+                },
+                {
+                    title: values.TUTORIAL_SLIDE03_TITLE,
+                    description: values.TUTORIAL_SLIDE03_DESCRIPTION,
+                },
+                {
                     title: values.TUTORIAL_SLIDE1_TITLE,
                     description: values.TUTORIAL_SLIDE1_DESCRIPTION,
+                },
+                {
+                    title: values.TUTORIAL_SLIDE11_TITLE,
+                    description: values.TUTORIAL_SLIDE11_DESCRIPTION,
+                },
+                {
+                    title: values.TUTORIAL_SLIDE111_TITLE,
+                    description: values.TUTORIAL_SLIDE111_DESCRIPTION,
                     image: 'assets/img/ica-slidebox-img-1.png',
                 },
                 {
                     title: values.TUTORIAL_SLIDE12_TITLE,
-                    description: values.TUTORIAL_SLIDE12_DESCRIPTION,
-                    image: 'assets/img/ica-slidebox-img-12.png',
+                    description: values.TUTORIAL_SLIDE12_DESCRIPTION
                 },
                 {
                     title: values.TUTORIAL_SLIDE2_TITLE,
@@ -647,7 +671,7 @@ var TutorialPage = (function () {
 }());
 TutorialPage = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-        selector: 'page-tutorial',template:/*ion-inline-start:"/Users/pabloelustondo/lucketslive/ui/src/pages/tutorial/tutorial.html"*/'<ion-header no-shadow>\n  <ion-navbar>\n    <ion-buttons end *ngIf="showSkip">\n      <button ion-button (click)="startApp()" color="primary">{{ \'TUTORIAL_SKIP_BUTTON\' | translate}}</button>\n    </ion-buttons>\n  </ion-navbar>\n</ion-header>\n\n<ion-content no-bounce>\n  <ion-slides pager="true" (ionSlideWillChange)="onSlideChangeStart($event)">\n    <ion-slide *ngFor="let slide of slides">\n      <img [src]="slide.image" class="slide-image" />\n      <h1 class="slide-title" [innerHTML]="slide.title"></h1>\n      <p *ngIf="slide.description" [innerHTML]="slide.description"></p>\n    </ion-slide>\n    <ion-slide>\n      <img src="assets/img/ica-slidebox-img-last.png" class="slide-image" />\n      <h2 class="slide-title">{{ \'TUTORIAL_SLIDE_LAST_TITLE\' | translate }}</h2>\n      <button ion-button icon-end large clear (click)="startApp()">\n        {{ \'TUTORIAL_CONTINUE_BUTTON\' | translate }}\n        <ion-icon name="arrow-forward"></ion-icon>\n      </button>\n    </ion-slide>\n  </ion-slides>\n</ion-content>\n'/*ion-inline-end:"/Users/pabloelustondo/lucketslive/ui/src/pages/tutorial/tutorial.html"*/
+        selector: 'page-tutorial',template:/*ion-inline-start:"/Users/pabloelustondo/lucketslive/ui/src/pages/tutorial/tutorial.html"*/'<ion-header no-shadow>\n  <ion-navbar>\n    <ion-buttons end *ngIf="showSkip">\n      <button ion-button (click)="startApp()" color="primary">{{ \'TUTORIAL_SKIP_BUTTON\' | translate}}</button>\n    </ion-buttons>\n  </ion-navbar>\n</ion-header>\n\n<ion-content no-bounce>\n  <ion-slides pager="true" (ionSlideWillChange)="onSlideChangeStart($event)">\n    <ion-slide *ngFor="let slide of slides">\n      <img *ngIf="slide.image" [src]="slide.image" class="slide-image" />\n      <h1 class="slide-title" [innerHTML]="slide.title"></h1>\n      <p *ngIf="slide.description" [innerHTML]="slide.description"></p>\n    </ion-slide>\n    <ion-slide>\n      <img src="assets/img/ica-slidebox-img-last.png" class="slide-image" />\n      <h2 class="slide-title">{{ \'TUTORIAL_SLIDE_LAST_TITLE\' | translate }}</h2>\n      <button ion-button icon-end large clear (click)="startApp()">\n        {{ \'TUTORIAL_CONTINUE_BUTTON\' | translate }}\n        <ion-icon name="arrow-forward"></ion-icon>\n      </button>\n    </ion-slide>\n  </ion-slides>\n</ion-content>\n'/*ion-inline-end:"/Users/pabloelustondo/lucketslive/ui/src/pages/tutorial/tutorial.html"*/
     }),
     __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* MenuController */], __WEBPACK_IMPORTED_MODULE_3__ngx_translate_core__["c" /* TranslateService */]])
 ], TutorialPage);

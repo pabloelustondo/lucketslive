@@ -25328,6 +25328,13 @@ page-list-master .lucketActionStatus {
   display: inline-block;
 }
 
+page-list-master .lucketSensorStatus {
+  width: 20px;
+  height: 5px;
+  background: red;
+  display: inline-block;
+}
+
 page-list-master .name {
   display: inline-block;
 }
@@ -25361,7 +25368,7 @@ page-tutorial .slide-title {
 page-tutorial .slide-image {
   max-height: 40%;
   max-width: 60%;
-  margin: 36px 0;
+  margin: 20px 0;
 }
 
 page-tutorial b {

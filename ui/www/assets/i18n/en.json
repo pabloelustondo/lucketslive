@@ -17,18 +17,33 @@
   "TUTORIAL_SKIP_BUTTON" : "Skip",
   "TUTORIAL_CONTINUE_BUTTON" : "Continue",
 
-  "TUTORIAL_SLIDE0_TITLE": "Hi, I'm Luckets, a smart personal assistant to help you know yourself and organize your life better",
-  "TUTORIAL_SLIDE0_DESCRIPTION":"I'm a technological advanced, personal assistant robot, backed by artificial inteligence and built around time tested principles for conducting a wise and good life. Borrowing from many ancient and modern thinkers from Epictetus 100AD to Stephen Covey and many others, we have created the first computer based life philosophy that will help you thrive and enjoy more",
+  "TUTORIAL_SLIDE0_TITLE": "Hello, I'm Luckets.",
+  "TUTORIAL_SLIDE0_DESCRIPTION":"I'm a technological advanced personal assistant, backed by artificial inteligence, to help you know yourself and live better and happier",
+
+  "TUTORIAL_SLIDE02_TITLE": "Ancient wisdom on today's technology",
+  "TUTORIAL_SLIDE02_DESCRIPTION":"I was built around time-tested principles for conducting a wise, balanced and good life; borrowing from many thinkers from Epictetus 100 AD to Stephen Covey. I am a computer-based life-system that will help you thrive, enjoy more and even lead and help others",
 
 
-  "TUTORIAL_SLIDE1_TITLE": "1. First, I will help you to identify ALL the important areas in your life (or 'life buckets'...luckets)",
-  "TUTORIAL_SLIDE1_DESCRIPTION": "Each lucket will represent a very important area in your life such as: health, family, your mind, money, friends, work, etc. Anything you care about, will have, at least, a lucket. Based on certain questions, I will propose you the initial luckets that humans like you tend to use. Then, later, you and me will customize adding or removing certain luckets to represent you more precisely. When done, those luckets will define you, your values, your interests, your plan.",
+  "TUTORIAL_SLIDE03_TITLE": "Your wishes on our system for you",
+  "TUTORIAL_SLIDE03_DESCRIPTION":"In the next few slides, I will summarize our system through a series of steps to define and organize your life for the better. Those steps will help you understand also how our system will guide and help you",
 
-  "TUTORIAL_SLIDE12_TITLE": "2. Then, we will order those luckets to represent the main priorities in your life",
-  "TUTORIAL_SLIDE12_DESCRIPTION": "All luckets are important but still they have some precedence if things go wrong. Like when the flight attendant tell us to put the oxigen mask on us and then, put it on our child. Some things should be checked before considering others. Our natural order will start with something such as: Mind, Body, Loved Ones. When those things are reasonable ok, you can proceed to other important ones like Work, or Money.",
 
-  "TUTORIAL_SLIDE2_TITLE": "3. With areas and priorities clear, next step is to have a sense of the status of your life areas",
-  "TUTORIAL_SLIDE2_DESCRIPTION": "We use circles with primary colors to show the status of a lucket at a point in time. Blue is perfection. You want to keep it like that, but do not overdue. Green is pretty good but keep working if possible. Yellow is warning, do something eventually . Red is pretty bad, please do something asap. White is neglect or skip. You decide not to care about this lucket for now. That maybe ok. Black is tragic. You need to stop everything else with lower priority and take care of this lucket alone.",
+  "TUTORIAL_SLIDE1_TITLE": "Step 1. Identify everything you care in your life.",
+  "TUTORIAL_SLIDE1_DESCRIPTION": "We are going to consider everything. Everything you care. To do that I will start by proposing you the areas that most people like you care about: health, family, your mind, money, friends, work, etc. and then we will add some specific ones for you. It will take some time, that is ok, it's your life ",
+
+  "TUTORIAL_SLIDE11_TITLE": "Everything is connected but life needs focus",
+  "TUTORIAL_SLIDE11_DESCRIPTION": "To think or to act we need to focus on specifics. That is the pourpose of a 'Lucket', a specific isolated 'life bucket' that will represents a relativelly fixed life area that you plan to care and improve. I will track and analyze wishes, status and actions in your Luckets to help you become better",
+
+
+  "TUTORIAL_SLIDE111_TITLE": "You life on Luckets",
+  "TUTORIAL_SLIDE111_DESCRIPTION": "When step 1 is done, you will have one lucket for anything you care. Now, you can forget about stuff outside your buckets.",
+
+
+  "TUTORIAL_SLIDE12_TITLE": "Step 2. Order the luckets to represent the priorities in your life",
+  "TUTORIAL_SLIDE12_DESCRIPTION": "All luckets are important but some will be more important to you when things go wrong. There a many ways to define priorities, sometimes is obvious, sometimes is a personal choice. I will propose you some initial order and then we will fine tune it to you",
+
+  "TUTORIAL_SLIDE2_TITLE": "Step 3. Assess the status of every lucket in your life",
+  "TUTORIAL_SLIDE2_DESCRIPTION": "Humans communicate better with simple signs. I will color codes with primary colors to show the status of a lucket at a point in time. Blue is perfection. You want to keep it like that, but do not overdue. Green is pretty good but keep working if possible. Yellow is warning, do something eventually . Red is pretty bad, please do something asap. White is neglect or skip. You decide not to care about this lucket for now. That maybe ok. Black is tragic. You need to stop everything else with lower priority and take care of this lucket alone.",
   "TUTORIAL_SLIDE2_EXAMPLE": "Example: Say you want to assess the status of your 'Health' lucket. If you feel fit, flexible, thin and nice but you still need to watch out your diet and your gym, put a green. Good job. If you are 5kg overweight, feel tired and having not going to gym recently put a yellow. If you are 20kgs overweight, have knee pain and cannot stop eating ice cream and smoking for breakfast, put a red. I would not use white here, your call, but neglecting your health is a bad strategy. I hope you never put black in this lucket. That is very sad, but may happen, specially is you do not stop that smoking. If you feel like the Dalai Lama going to the Olympics put a blue.",
 
 

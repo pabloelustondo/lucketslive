@@ -1,0 +1,92 @@
+{
+  "BACK_BUTTON_TEXT" : "Back",
+
+  "NAME": "Name",
+  "EMAIL": "Email",
+  "USERNAME": "Username",
+  "PASSWORD": "Password",
+  "LOGIN": "Sign in",
+  "SIGNUP": "Sign up",
+
+  "TAB1_TITLE": "Think",
+  "TAB2_TITLE": "Plan",
+  "TAB3_TITLE": "Settings",
+
+  "MAP_TITLE": "Map",
+
+  "TUTORIAL_SKIP_BUTTON" : "Skip",
+  "TUTORIAL_CONTINUE_BUTTON" : "Continue",
+
+  "TUTORIAL_SLIDE0_TITLE": "Hi, I'm Luckets, a smart personal assistant to help you know yourself and organize your life better",
+  "TUTORIAL_SLIDE0_DESCRIPTION":"I'm a technological advanced, personal assistant robot, backed by artificial inteligence and built around time tested principles for conducting a wise and good life. Borrowing from many ancient and modern thinkers from Epictetus 100AD to Stephen Covey and many others, we have created the first computer based life philosophy that will help you thrive and enjoy more",
+
+
+  "TUTORIAL_SLIDE1_TITLE": "1. First, I will help you to identify ALL the important areas in your life (or 'life buckets'...luckets)",
+  "TUTORIAL_SLIDE1_DESCRIPTION": "Each lucket will represent a very important area in your life such as: health, family, your mind, money, friends, work, etc. Anything you care about, will have, at least, a lucket. Based on certain questions, I will propose you the initial luckets that humans like you tend to use. Then, later, you and me will customize adding or removing certain luckets to represent you more precisely. When done, those luckets will define you, your values, your interests, your plan.",
+
+  "TUTORIAL_SLIDE12_TITLE": "2. Then, we will order those luckets to represent the main priorities in your life",
+  "TUTORIAL_SLIDE12_DESCRIPTION": "All luckets are important but still they have some precedence if things go wrong. Like when the flight attendant tell us to put the oxigen mask on us and then, put it on our child. Some things should be checked before considering others. Our natural order will start with something such as: Mind, Body, Loved Ones. When those things are reasonable ok, you can proceed to other important ones like Work, or Money.",
+
+  "TUTORIAL_SLIDE2_TITLE": "3. With areas and priorities clear, next step is to have a sense of the status of your life areas",
+  "TUTORIAL_SLIDE2_DESCRIPTION": "We use circles with primary colors to show the status of a lucket at a point in time. Blue is perfection. You want to keep it like that, but do not overdue. Green is pretty good but keep working if possible. Yellow is warning, do something eventually . Red is pretty bad, please do something asap. White is neglect or skip. You decide not to care about this lucket for now. That maybe ok. Black is tragic. You need to stop everything else with lower priority and take care of this lucket alone.",
+  "TUTORIAL_SLIDE2_EXAMPLE": "Example: Say you want to assess the status of your 'Health' lucket. If you feel fit, flexible, thin and nice but you still need to watch out your diet and your gym, put a green. Good job. If you are 5kg overweight, feel tired and having not going to gym recently put a yellow. If you are 20kgs overweight, have knee pain and cannot stop eating ice cream and smoking for breakfast, put a red. I would not use white here, your call, but neglecting your health is a bad strategy. I hope you never put black in this lucket. That is very sad, but may happen, specially is you do not stop that smoking. If you feel like the Dalai Lama going to the Olympics put a blue.",
+
+
+  "TUTORIAL_SLIDE3_TITLE": "4. Life is doing. So, we will define activities or goals within human time frames: day, week, season, year",
+  "TUTORIAL_SLIDE3_DESCRIPTION": "We know that you will want to keep your luckets alive: doing, enjoying and achieving things within some time frame. Luckets use natural cyclical time frames. Although specific actions may have specific deadlines we evaluate the whole situation using cyclical timeframes. For example in the lucket 'Health', we may want to achieve certain amount of gym activity during the week. In the lucket 'Money' maybe we want to reduce our costs within a year. In the lucket 'Work' maybe we want to deliver some interesting results every day, or week, or quarter depending on your profession.",
+  "TUTORIAL_SLIDE3_EXAMPLE": "Example: Say you are assessing your action 'do gym for 30 mins 4 days a week'....to be continued",
+
+  "TUTORIAL_SLIDE4_TITLE": "5. After your activities or goals are defined in timeframes, we will access their status as well",
+  "TUTORIAL_SLIDE4_DESCRIPTION": "Similar to circles for lucket status, we use colored squares to show the status of actions within their time frame. The meaning is somehow similar. Blue means 'done' you should probably stop, otherwise it would be too much.. Green means almost done, god job, but keep trying. Yellow means not done, not started, needs attention. Red means that your action is actually causing or caused some harm you made things worse, please fix asap. White is skip, which sometimes is ok. A black action is not as bad as a black lucket, but still, implies urgency",
+  "TUTORIAL_SLIDE4_EXAMPLE": "Example: Say you are assessing your action 'do gym for 30 mins 4 days a week'....to be continued",
+
+
+  "TUTORIAL_SLIDE5_TITLE": "6. I am a robot but you are not. So, we will be always sensing you. ",
+  "TUTORIAL_SLIDE5_DESCRIPTION": "I want to help you succeed and be happy, for real, at whatever you want. Setting priorities and goals is a good step. But, you will have moods, feelings, things that will concern you or district you. You are human, fortunatelly, and you do not do what you have to, you do what you want to. So, we are going to take a tinny bit of every days time to check how you feel, at least, in these fundamental 6 aspects we are going to call the 'moods': general mood, view of circumstances, energy, motivation, focus, sociability. Those will be the basic sensors in the lucket Mind. We will be adding some other sensors to other luckets later",
+
+
+  "TUTORIAL_SLIDE6_TITLE": "7. My goal is to help you keep nice colors with more green and blues than reds and blacks",
+  "TUTORIAL_SLIDE6_DESCRIPTION": "The status of your luckets will change over time due to your own actions, external events, moods and time itself. I will help you to keep your luckets alive and in good health,  by suggesting you thigns you should be doing more, or things you should be doing less. I will help you pint point things that you may want to change, or consider. But, of course, the process will take time for us to learn from each other. Good news is that I have a big memory",
+  "TUTORIAL_SLIDE6_EXAMPLE": "Example: Say you are assessing your action 'do gym for 30 mins 4 days a week'....to be continued",
+
+
+  "TUTORIAL_SLIDE_LAST_TITLE": "Now you know what do do. Try your best every day doing what you can. Carpe diem",
+
+  "WELCOME_INTRO" : "Ok, let's do this",
+
+  "SETTINGS_TITLE": "Settings",
+  "SETTINGS_OPTION1": "Option 1",
+  "SETTINGS_OPTION2": "Option 2",
+  "SETTINGS_OPTION3": "Option 3",
+  "SETTINGS_OPTION4": "Option 4",
+
+  "SETTINGS_PROFILE_BUTTON" : "Edit Profile",
+
+  "SETTINGS_PAGE_PROFILE": "Edit Profile",
+
+  "WELCOME_TITLE": "Welcome",
+
+  "LOGIN_TITLE": "Sign in",
+  "LOGIN_ERROR": "Unable to sign in. Please check your account information and try again.",
+  "LOGIN_BUTTON": "Sign in",
+  "SIGNUP_TITLE": "Sign up",
+  "SIGNUP_ERROR": "Unable to create account. Please check your account information and try again.",
+  "SIGNUP_BUTTON": "Sign up",
+
+  "LIST_MASTER_TITLE": "Luckets",
+
+  "ITEM_CREATE_TITLE": "New Item",
+  "ITEM_CREATE_CHOOSE_IMAGE": "Add Image",
+
+  "ITEM_NAME_PLACEHOLDER" : "Name",
+  "ITEM_ABOUT_PLACEHOLDER" : "About",
+
+  "DONE_BUTTON" : "Done",
+  "CANCEL_BUTTON" : "Cancel",
+  "DELETE_BUTTON" : "Delete",
+
+  "CARDS_TITLE": "Social",
+
+  "SEARCH_TITLE": "Search",
+  "SEARCH_PLACEHOLDER" : "Search the items list, e.g. \"Donald Duck\""
+}
