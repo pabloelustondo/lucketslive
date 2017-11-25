@@ -25368,7 +25368,10 @@ page-tutorial .slide-title {
 page-tutorial .slide-image {
   max-height: 40%;
   max-width: 60%;
-  margin: 20px 0;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 0px;
 }
 
 page-tutorial b {
