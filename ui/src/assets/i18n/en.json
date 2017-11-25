@@ -18,25 +18,27 @@
   "TUTORIAL_CONTINUE_BUTTON" : "Continue",
 
   "TUTORIAL_SLIDE0_TITLE": "Hello, I'm Luckets.",
-  "TUTORIAL_SLIDE0_DESCRIPTION":"I'm a technological advanced personal assistant, backed by artificial inteligence, to help you know yourself and live better and happier",
+  "TUTORIAL_SLIDE0_DESCRIPTION":"I'm a technological advanced personal assistant, backed by artificial inteligence, to help you know yourself, live better and be happier",
 
   "TUTORIAL_SLIDE02_TITLE": "Ancient wisdom on today's technology",
   "TUTORIAL_SLIDE02_DESCRIPTION":"I was built around time-tested principles for conducting a wise, balanced and good life; borrowing from many thinkers from Epictetus 100 AD to Stephen Covey. I am a computer-based life-system that will help you thrive, enjoy more and even lead and help others",
 
+  "TUTORIAL_SLIDE021_TITLE": "Becoming the best of you is not about goals or tasks",
+  "TUTORIAL_SLIDE021_DESCRIPTION":"I want to help you becoming the best of you, using your time on earth as wise as possible. But we should not care too much about arbitrary artificial goals or predefined tasks. Every day, we will re-assess and ask ourselves. How can I use this day, or week, or year to the fullest according to my interests?",
 
   "TUTORIAL_SLIDE03_TITLE": "Your wishes on our system for you",
-  "TUTORIAL_SLIDE03_DESCRIPTION":"In the next few slides, I will summarize our system through a series of steps to define and organize your life for the better. Those steps will help you understand also how our system will guide and help you",
+  "TUTORIAL_SLIDE03_DESCRIPTION":"In the next few slides, I will summarize our system through a series of steps to define and organize your life for the better. Enjoy and relax, we will guide you by proposing a very practical approach, with very concrete ideas and a rapid setup to reboot your life",
 
 
   "TUTORIAL_SLIDE1_TITLE": "Step 1. Identify everything you care in your life.",
-  "TUTORIAL_SLIDE1_DESCRIPTION": "We are going to consider everything. Everything you care. To do that I will start by proposing you the areas that most people like you care about: health, family, your mind, money, friends, work, etc. and then we will add some specific ones for you. It will take some time, that is ok, it's your life ",
+  "TUTORIAL_SLIDE1_DESCRIPTION": "We are going to consider everything. Everything you care. To do that I will start by proposing you the areas that most humans like you care about: health, family, your mind, money, friends, work, etc. and then we will add some specific ones for you. It will take some time, that is ok, it's your life ",
 
   "TUTORIAL_SLIDE11_TITLE": "Everything is connected but life needs focus",
-  "TUTORIAL_SLIDE11_DESCRIPTION": "To think or to act we need to focus on specifics. That is the pourpose of a 'Lucket', a specific isolated 'life bucket' that will represents a relativelly fixed life area that you plan to care and improve. I will track and analyze wishes, status and actions in your Luckets to help you become better",
+  "TUTORIAL_SLIDE11_DESCRIPTION": "To think or to act we need to focus on specifics. That is the pourpose of a 'Lucket', a specific isolated 'life bucket' that represents a permanent life subject that you plan to care and improve over time. I will track and analyze wishes, status and actions in your Luckets to help you become better",
 
 
   "TUTORIAL_SLIDE111_TITLE": "You life on Luckets",
-  "TUTORIAL_SLIDE111_DESCRIPTION": "When step 1 is done, you will have one lucket for anything you care. Now, you can forget about stuff outside your buckets.",
+  "TUTORIAL_SLIDE111_DESCRIPTION": "When step 1 is done, you will have one lucket for anything you care. Now, you can forget about stuff outside your luckets.",
 
 
   "TUTORIAL_SLIDE12_TITLE": "Step 2. Order the luckets to represent the priorities in your life",
@@ -51,7 +53,7 @@
   "TUTORIAL_SLIDE2b_EXAMPLE": "Example: Say you want to assess the status of your 'Health' lucket. If you feel fit, flexible, thin and nice but you still need to watch out your diet and your gym, put a green. Good job. If you are 5kg overweight, feel tired and having not going to gym recently put a yellow. If you are 20kgs overweight, have knee pain and cannot stop eating ice cream and smoking for breakfast, put a red. I would not use white here, your call, but neglecting your health is a bad strategy. I hope you never put black in this lucket. That is very sad, but may happen, specially is you do not stop that smoking. If you feel like the Dalai Lama going to the Olympics put a blue.",
 
 
-  "TUTORIAL_SLIDE3_TITLE": "Step 4. Define goals or activities for the week, season and year",
+  "TUTORIAL_SLIDE3_TITLE": "Step 4. Define activities for the week, season and year",
   "TUTORIAL_SLIDE3_DESCRIPTION": "Life is about doing things we care within time frames. Humans living on earth work better using time frames based on the sun and the moon. The week is the best unit of planning, even earth was created in one. Some activities need a longer term, a season or a year",
   "TUTORIAL_SLIDE3_EXAMPLE": "Example: Say you are assessing your action 'do gym for 30 mins 4 days a week'....to be continued",
 
@@ -60,21 +62,25 @@
   "TUTORIAL_SLIDE3b_EXAMPLE": "Example: Say you are assessing your action 'do gym for 30 mins 4 days a week'....to be continued",
 
 
-  "TUTORIAL_SLIDE4_TITLE": "5. After your activities or goals are defined in timeframes, we will access their status as well",
-  "TUTORIAL_SLIDE4_DESCRIPTION": "Similar to circles for lucket status, we use colored squares to show the status of actions within their time frame. The meaning is somehow similar. Blue means 'done' you should probably stop, otherwise it would be too much.. Green means almost done, god job, but keep trying. Yellow means not done, not started, needs attention. Red means that your action is actually causing or caused some harm you made things worse, please fix asap. White is skip, which sometimes is ok. A black action is not as bad as a black lucket, but still, implies urgency",
+  "TUTORIAL_SLIDE4_TITLE": "Step 6. Day by day, assess your achievements within time frames",
+  "TUTORIAL_SLIDE4_DESCRIPTION": "Similar to circles for lucket status, we use colored squares to show the status of activities within their time frame. The meaning is somehow similar. Blue means 'done', green 'in progress', etc",
   "TUTORIAL_SLIDE4_EXAMPLE": "Example: Say you are assessing your action 'do gym for 30 mins 4 days a week'....to be continued",
 
-
-  "TUTORIAL_SLIDE5_TITLE": "6. I am a robot but you are not. So, we will be always sensing you. ",
-  "TUTORIAL_SLIDE5_DESCRIPTION": "I want to help you succeed and be happy, for real, at whatever you want. Setting priorities and goals is a good step. But, you will have moods, feelings, things that will concern you or district you. You are human, fortunatelly, and you do not do what you have to, you do what you want to. So, we are going to take a tinny bit of every days time to check how you feel, at least, in these fundamental 6 aspects we are going to call the 'moods': general mood, view of circumstances, energy, motivation, focus, sociability. Those will be the basic sensors in the lucket Mind. We will be adding some other sensors to other luckets later",
-
-
-  "TUTORIAL_SLIDE6_TITLE": "7. My goal is to help you keep nice colors with more green and blues than reds and blacks",
-  "TUTORIAL_SLIDE6_DESCRIPTION": "The status of your luckets will change over time due to your own actions, external events, moods and time itself. I will help you to keep your luckets alive and in good health,  by suggesting you thigns you should be doing more, or things you should be doing less. I will help you pint point things that you may want to change, or consider. But, of course, the process will take time for us to learn from each other. Good news is that I have a big memory",
-  "TUTORIAL_SLIDE6_EXAMPLE": "Example: Say you are assessing your action 'do gym for 30 mins 4 days a week'....to be continued",
+  "TUTORIAL_SLIDE4b_TITLE": "Step 7. Tell me how much you love that lucket",
+  "TUTORIAL_SLIDE4b_DESCRIPTION": "Not all luckets are the same when it comes to deal with them. Some thing we care stress us a lot, some of them relax us, some are in the middle. Use color coded triagles to tell me how you feel about it. Blue means love, read means hate",
+  "TUTORIAL_SLIDE4b_EXAMPLE": "Example: Say you are assessing your action 'do gym for 30 mins 4 days a week'....to be continued",
 
 
-  "TUTORIAL_SLIDE_LAST_TITLE": "Now you know what do do. Try your best every day doing what you can. Carpe diem",
+  "TUTORIAL_SLIDE5_TITLE": "Step 8. Tell me how you feel ",
+  "TUTORIAL_SLIDE5_DESCRIPTION": "Humans are cute but complicated. You have feelings and I better know to help. For every lucket  assess: general mood, feeling about circumstances, motivation, energy, focus. social need. Again, we will use a similar color code for this",
+
+  "TUTORIAL_SLIDE5b_TITLE": "Step 9. Keep our luckets alive",
+  "TUTORIAL_SLIDE5b_DESCRIPTION": "This system is not about taking hard decisions and stick to them for a long time. Is about ccontinously re-assesing, thinking, recalculating what is the best. Periodically, every week, or every day, we will re-asses your luckets and adapt to optimize our plan  ",
+
+  "TUTORIAL_SLIDE6_TITLE": "Step 10. Check my reports and advice",
+  "TUTORIAL_SLIDE6_DESCRIPTION": "Based on the historical data I will be collecting about your luckets, activities, feelings and information about your circunstances I will be continously giving you new advice, new ways to improve. We will be a team. ",
+
+  "TUTORIAL_SLIDE_LAST_TITLE": "Good job. Now, please, slow down, relax and enjoy a bit. This is going to be good but there is not need for rush. Only press continue when your are ready, maybe tomorrow. Cheers.",
 
   "WELCOME_INTRO" : "Ok, let's do this",
 

@@ -564,6 +564,8 @@ var TutorialPage = (function () {
             "TUTORIAL_SLIDE0_DESCRIPTION",
             "TUTORIAL_SLIDE02_TITLE",
             "TUTORIAL_SLIDE02_DESCRIPTION",
+            "TUTORIAL_SLIDE021_TITLE",
+            "TUTORIAL_SLIDE021_DESCRIPTION",
             "TUTORIAL_SLIDE03_TITLE",
             "TUTORIAL_SLIDE03_DESCRIPTION",
             "TUTORIAL_SLIDE1_TITLE",
@@ -585,9 +587,15 @@ var TutorialPage = (function () {
             "TUTORIAL_SLIDE4_TITLE",
             "TUTORIAL_SLIDE4_DESCRIPTION",
             "TUTORIAL_SLIDE4_EXAMPLE",
+            "TUTORIAL_SLIDE4b_TITLE",
+            "TUTORIAL_SLIDE4b_DESCRIPTION",
+            "TUTORIAL_SLIDE4b_EXAMPLE",
             "TUTORIAL_SLIDE5_TITLE",
             "TUTORIAL_SLIDE5_DESCRIPTION",
             "TUTORIAL_SLIDE5_EXAMPLE",
+            "TUTORIAL_SLIDE5b_TITLE",
+            "TUTORIAL_SLIDE5b_DESCRIPTION",
+            "TUTORIAL_SLIDE5b_EXAMPLE",
             "TUTORIAL_SLIDE6_TITLE",
             "TUTORIAL_SLIDE6_DESCRIPTION",
             "TUTORIAL_SLIDE6_EXAMPLE",
@@ -645,14 +653,22 @@ var TutorialPage = (function () {
                     image: 'assets/img/ica-slidebox-img-4.png',
                 },
                 {
+                    title: values.TUTORIAL_SLIDE4b_TITLE,
+                    description: values.TUTORIAL_SLIDE4b_DESCRIPTION,
+                    image: 'assets/img/ica-slidebox-img-4b.png',
+                },
+                {
                     title: values.TUTORIAL_SLIDE5_TITLE,
                     description: values.TUTORIAL_SLIDE5_DESCRIPTION,
                     image: 'assets/img/ica-slidebox-img-5.png',
                 },
                 {
+                    title: values.TUTORIAL_SLIDE5b_TITLE,
+                    description: values.TUTORIAL_SLIDE5b_DESCRIPTION,
+                },
+                {
                     title: values.TUTORIAL_SLIDE6_TITLE,
-                    description: values.TUTORIAL_SLIDE6_DESCRIPTION,
-                    image: 'assets/img/ica-slidebox-img-6.png',
+                    description: values.TUTORIAL_SLIDE6_DESCRIPTION
                 }
             ];
         });
