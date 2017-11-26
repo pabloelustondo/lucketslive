@@ -55,7 +55,7 @@
 
 
 
-  "TUTORIAL_SLIDE3a_TITLE": "6. Size activities with units and patterns",
+  "TUTORIAL_SLIDE3a_TITLE": "6. Size activities using units and patterns",
   "TUTORIAL_SLIDE3a_DESCRIPTION": "Sizing is a critical fine art that can only be learnt by experimenting and doing. Luckets uses a simple, but powerful, way to size using units and pattern.'do 1 hour of gym 3 times a week', 'work at office 7 hours a day 5 times a week', etc. This point will take some time to master. I will help.",
   "TUTORIAL_SLIDE3a_EXAMPLE": "Example: Say you are assessing your action 'do gym for 30 mins 4 days a week'....to be continued",
 
@@ -70,21 +70,21 @@
   "TUTORIAL_SLIDE4_DESCRIPTION": "Blue means 'done', green 'in progress', white 'skip or neglect', yellow 'warning, needs a attention', red 'trouble, may not happen', black 'dead, no way to do'",
   "TUTORIAL_SLIDE4_EXAMPLE": "Example: Say you are assessing your action 'do gym for 30 mins 4 days a week'....to be continued",
 
-  "TUTORIAL_SLIDE4b_TITLE": "Point 7. Tell me how much you love that lucket",
-  "TUTORIAL_SLIDE4b_DESCRIPTION": "Not all luckets are the same when it comes to deal with them. Some thing we care stress us a lot, some of them relax us, some are in the middle. Use color coded triagles to tell me how you feel about it. Blue means love, read means hate",
+  "TUTORIAL_SLIDE4b_TITLE": "9. Tell me how love or hate that lucket",
+  "TUTORIAL_SLIDE4b_DESCRIPTION": "Not all luckets feel the same. Some luckets stress us a lot, some of them relax you, some are in the middle. Use color coded triagles to tell me how you feel about them. Read is hate, Green is 'Ok', Blue is love.",
   "TUTORIAL_SLIDE4b_EXAMPLE": "Example: Say you are assessing your action 'do gym for 30 mins 4 days a week'....to be continued",
 
 
-  "TUTORIAL_SLIDE5_TITLE": "Point 8. Tell me how you feel ",
-  "TUTORIAL_SLIDE5_DESCRIPTION": "Humans are cute but complicated. You have feelingsand that greatly impact plans. For every lucket assess: general mood, feeling about circumstances, motivation, energy, focus. social need. Again, we will use a similar color code for this",
+  "TUTORIAL_SLIDE5_TITLE": "10. Tell me how you feel ",
+  "TUTORIAL_SLIDE5_DESCRIPTION": "Humans are cute but complicated. You have feelings that greatly impact your plans. For every lucket assess: general mood, feeling about circumstances, motivation, energy, focus. social need. Color code following the idea.",
 
-  "TUTORIAL_SLIDE5b_TITLE": "Point 9. Keep our luckets alive",
+  "TUTORIAL_SLIDE5b_TITLE": "11. Keep our luckets alive",
   "TUTORIAL_SLIDE5b_DESCRIPTION": "This system is not about taking hard decisions and stick to them for a long time. Is about ccontinously re-assesing, thinking, recalculating what is the best. Periodically, every week, or every day, we will re-asses your luckets and adapt to optimize our plan  ",
 
-  "TUTORIAL_SLIDE6_TITLE": "Point 10. Check my reports and advice",
-  "TUTORIAL_SLIDE6_DESCRIPTION": "Based on the historical data I will be collecting about your luckets, activities, feelings and information about your circunstances I will be continously giving you new advice, new ways to improve. We will be a team. ",
+  "TUTORIAL_SLIDE6_TITLE": "12. Check my reports and advice",
+  "TUTORIAL_SLIDE6_DESCRIPTION": "Based on the historical data I will be collecting about your luckets, activities, feelings and information about your circunstances I will be continously giving you new advice, new ways to improve. We will be a team to rock the long term. ",
 
-  "TUTORIAL_SLIDE_LAST_TITLE": "Good job. Now, please, slow down and relax. Press continue when your are ready, maybe tomorrow. Cheers.",
+  "TUTORIAL_SLIDE_LAST_TITLE": "Good job. Now, slow down and relax. Continue when your are ready, maybe tomorrow. Cheers.",
 
   "WELCOME_INTRO" : "Ok, let's do this",
 
