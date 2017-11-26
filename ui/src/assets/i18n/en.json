@@ -31,7 +31,7 @@
 
 
   "TUTORIAL_SLIDE1_TITLE": "1. Identify everything you want or should care in life.",
-  "TUTORIAL_SLIDE1_DESCRIPTION": "We are going to consider everything. Everything you care. To do that I will start by proposing you the areas that most humans like you care about: health, family, your mind, money, friends, work, etc. and then we will add some specific ones for you. Take your time, it's your life ",
+  "TUTORIAL_SLIDE1_DESCRIPTION": "We are going to consider everything. Everything you care. To do that, I will start by proposing you the areas that most humans like you care about: health, family, your mind, money, friends, work, adventure, etc, plus some specific ones for you. Take your time, it's your life ",
 
   "TUTORIAL_SLIDE11_TITLE": "2. Organize everything you care into Luckets",
   "TUTORIAL_SLIDE11_DESCRIPTION": "A 'Lucket', is a specific isolated 'life bucket' that represents one or more of those permanent life areas that you plan to care and improve over time. Our predefined Luckets will be fine most of the time. We may create specifics for you. You want to keep the number manageable; Our model luckets list has 24",
@@ -42,7 +42,7 @@
 
 
   "TUTORIAL_SLIDE12_TITLE": "3. Order the luckets to define your priorities",
-  "TUTORIAL_SLIDE12_DESCRIPTION": "All luckets are important but some will be more important to you when things go wrong. There a many ways to define priorities, sometimes is obvious, sometimes is a personal choice. I will propose you some initial order and then we will fine tune it to you",
+  "TUTORIAL_SLIDE12_DESCRIPTION": "All luckets are important but some will be more important to you when things go wrong or become tragic or too urgent. There a many ways to define priorities, sometimes is obvious, sometimes is a personal choice. I will propose you some initial order and then we will fine tune it to you",
 
   "TUTORIAL_SLIDE2_TITLE": "4. Color code the status of all your luckets",
   "TUTORIAL_SLIDE2_DESCRIPTION": "Blue is perfection, should stop. Green is pretty good, keep working. Yellow is warning, do something. Red is really bad, do something asap. White is skip or neglect, maybe is ok. Black is tragic, stop everything and do this.",
@@ -55,19 +55,19 @@
 
 
 
-  "TUTORIAL_SLIDE3a_TITLE": "6. Size activities time need with units and patterns",
+  "TUTORIAL_SLIDE3a_TITLE": "6. Size activities with units and patterns",
   "TUTORIAL_SLIDE3a_DESCRIPTION": "Sizing is a critical fine art that can only be learnt by experimenting and doing. Luckets uses a simple, but powerful, way to size using units and pattern.'do 1 hour of gym 3 times a week', 'work at office 7 hours a day 5 times a week', etc. This point will take some time to master. I will help.",
   "TUTORIAL_SLIDE3a_EXAMPLE": "Example: Say you are assessing your action 'do gym for 30 mins 4 days a week'....to be continued",
 
 
 
-  "TUTORIAL_SLIDE3b_TITLE": "Point 5. Day by day, pick from your week list",
-  "TUTORIAL_SLIDE3b_DESCRIPTION": "We will always try, but is hard to perfectly plan a day. Some meetings will be fixed, but the rest should be adaptative. Together, we will intelligently assess our day circumstances and decide what is the best to do from your bucket lists. Carpe diem.",
+  "TUTORIAL_SLIDE3b_TITLE": "7. Day by day, pick from your week list",
+  "TUTORIAL_SLIDE3b_DESCRIPTION": "Is hard to plan a really meaningful day. Some meetings need to be fixed..., but flexibility allows for better optimization and creativity. You cannot plan inspiration. So, together we will assess the day circumstances, your goals and your moods to decide the best to do that day.",
   "TUTORIAL_SLIDE3b_EXAMPLE": "Example: Say you are assessing your action 'do gym for 30 mins 4 days a week'....to be continued",
 
 
-  "TUTORIAL_SLIDE4_TITLE": "Point 6. Day by day, assess your achievements within time frames",
-  "TUTORIAL_SLIDE4_DESCRIPTION": "Similar to circles for lucket status, we use colored squares to show the status of activities within their time frame. The meaning is somehow similar. Blue means 'done', green 'in progress', etc",
+  "TUTORIAL_SLIDE4_TITLE": "8. Day by day, assess your activities within time frames",
+  "TUTORIAL_SLIDE4_DESCRIPTION": "Blue means 'done', green 'in progress', white 'skip or neglect', yellow 'warning, needs a attention', red 'trouble, may not happen', black 'dead, no way to do'",
   "TUTORIAL_SLIDE4_EXAMPLE": "Example: Say you are assessing your action 'do gym for 30 mins 4 days a week'....to be continued",
 
   "TUTORIAL_SLIDE4b_TITLE": "Point 7. Tell me how much you love that lucket",
