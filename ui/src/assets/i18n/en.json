@@ -18,45 +18,45 @@
   "TUTORIAL_CONTINUE_BUTTON" : "Continue",
 
   "TUTORIAL_SLIDE0_TITLE": "Hello, I'm Luckets.",
-  "TUTORIAL_SLIDE0_DESCRIPTION":"I'm a technologically advanced personal assistant, backed by artificial inteligence, to help live better and be happier. Data science for your greatness",
+  "TUTORIAL_SLIDE0_DESCRIPTION":"I'm a technologically advanced personal assistant, backed by data science and artificial intelligence, to help live happier and be better.",
 
-  "TUTORIAL_SLIDE02_TITLE": "Ancient wisdom on today's technology",
-  "TUTORIAL_SLIDE02_DESCRIPTION":"I was built around time-tested principles for conducting a wise, balanced and good life; I combine many popular ideas from Epictetus' maxims, 100 AD, to Stephen Covey's habits. I am a computer-based life-system that will help you thrive, enjoy more and even lead and help others",
+  "TUTORIAL_SLIDE02_TITLE": "Ancient wisdom on future's technology",
+  "TUTORIAL_SLIDE02_DESCRIPTION":"I was built around time-tested principles for conducting a wise, balanced and good life; I combine many popular ideas from Epictetus' maxims to Stephen Covey's habits. I am a computer-based life-system that will help you thrive, enjoy more and even lead and help others",
 
-  "TUTORIAL_SLIDE021_TITLE": "Also, I may help you managing primitive productivity tools",
-  "TUTORIAL_SLIDE021_DESCRIPTION":"Like most other humans in 2017, you may be using first generation productivity tools, such as Google's Calendar, Email, Docs, Tasks, etc. If you do, I may help you accessing, integrating and managing those tools",
+  "TUTORIAL_SLIDE021_TITLE": "Also, I may help you managing manual productivity tools",
+  "TUTORIAL_SLIDE021_DESCRIPTION":"Like most humans in 2017, you may be using manual productivity tools, such as Google's Calendar, Email, Docs, Tasks, etc. If you do, I may help you accessing, integrating and managing those tools",
 
-  "TUTORIAL_SLIDE03_TITLE": "Ok, let's do a brief conceptual introduction",
-  "TUTORIAL_SLIDE03_DESCRIPTION":"In the next few slides, I will summarize our system through a series of points keeping a non technical conceptual level.",
+  "TUTORIAL_SLIDE03_TITLE": "A method and initial idea for a long life yourney",
+  "TUTORIAL_SLIDE03_DESCRIPTION":"I will summarize here our system through a series of conceptual points to give you an initial idea. However, Luckets is intended to be a long life journey of many daily steps, thinking, planning, collecting data, experimenting, interpreting feedback, learning and continuously improving. ",
 
 
-  "TUTORIAL_SLIDE1_TITLE": "Point 1. Identify everything you care in your life.",
+  "TUTORIAL_SLIDE1_TITLE": "1. Identify everything you want or should care in life.",
   "TUTORIAL_SLIDE1_DESCRIPTION": "We are going to consider everything. Everything you care. To do that I will start by proposing you the areas that most humans like you care about: health, family, your mind, money, friends, work, etc. and then we will add some specific ones for you. Take your time, it's your life ",
 
-  "TUTORIAL_SLIDE11_TITLE": "Point 2. Organize everything you care into Luckets",
-  "TUTORIAL_SLIDE11_DESCRIPTION": "A 'Lucket', is a specific isolated 'life bucket' that represents one of those permanent life areas that you plan to care and improve over time. Our predefined Luckets will be fine most of the time but sometimes we will create specifics ones for you.",
+  "TUTORIAL_SLIDE11_TITLE": "2. Organize everything you care into Luckets",
+  "TUTORIAL_SLIDE11_DESCRIPTION": "A 'Lucket', is a specific isolated 'life bucket' that represents one or more of those permanent life areas that you plan to care and improve over time. Our predefined Luckets will be fine most of the time. We may create specifics for you. You want to keep the number manageable; Our model luckets list has 24",
 
 
   "TUTORIAL_SLIDE111_TITLE": "You life on Luckets",
-  "TUTORIAL_SLIDE111_DESCRIPTION": "When done with point 1 and 2, you will have one lucket for anything you care. So, you can forget stuff outside your luckets.",
+  "TUTORIAL_SLIDE111_DESCRIPTION": "When done with point 1 and 2, you will have one lucket for anything you care. So, forget about stuff outside your luckets.",
 
 
-  "TUTORIAL_SLIDE12_TITLE": "Point 3. Order the luckets to define your priorities",
+  "TUTORIAL_SLIDE12_TITLE": "3. Order the luckets to define your priorities",
   "TUTORIAL_SLIDE12_DESCRIPTION": "All luckets are important but some will be more important to you when things go wrong. There a many ways to define priorities, sometimes is obvious, sometimes is a personal choice. I will propose you some initial order and then we will fine tune it to you",
 
-  "TUTORIAL_SLIDE2_TITLE": "Point 4. Color code the status of all your luckets",
+  "TUTORIAL_SLIDE2_TITLE": "4. Color code the status of all your luckets",
   "TUTORIAL_SLIDE2_DESCRIPTION": "Blue is perfection, should stop. Green is pretty good, keep working. Yellow is warning, do something. Red is really bad, do something asap. White is skip or neglect, maybe is ok. Black is tragic, stop everything and do this.",
   "TUTORIAL_SLIDE2_EXAMPLE": "Example: Say you want to assess the status of your 'Health' lucket. If you feel fit, flexible, thin and nice but you still need to watch out your diet and your gym, put a green. Good job. If you are 5kg overweight, feel tired and having not going to gym recently put a yellow. If you are 20kgs overweight, have knee pain and cannot stop eating ice cream and smoking for breakfast, put a red. I would not use white here, your call, but neglecting your health is a bad strategy. I hope you never put black in this lucket. That is very sad, but may happen, specially is you do not stop that smoking. If you feel like the Dalai Lama going to the Olympics put a blue.",
 
 
-  "TUTORIAL_SLIDE3_TITLE": "Point 5. Write activities and goals for the week, month, season, year and beyond",
-  "TUTORIAL_SLIDE3_DESCRIPTION": "Life is about doing things within time frames. Humans on earth work better with sun or moon based time frames and the week is the best unit of planning but life also needs longer perspective, write also for season, a year or and 5 years.",
+  "TUTORIAL_SLIDE3_TITLE": "5. Write activities and goals for the week, month, season, year and beyond",
+  "TUTORIAL_SLIDE3_DESCRIPTION": "Life is about doing things within time frames. Humans on earth like sun or moon based time frames and the week is the best unit of planning. Human life also needs longer perspective, try also to write for month, season, year and 5 years.",
   "TUTORIAL_SLIDE3_EXAMPLE": "Example: Say you are assessing your action 'do gym for 30 mins 4 days a week'....to be continued",
 
 
 
-  "TUTORIAL_SLIDE3a_TITLE": "Point 6. Size the activities with units and patterns",
-  "TUTORIAL_SLIDE3a_DESCRIPTION": "Sizing is a critical fine art to plan what to do. Luckets uses a simple, but powerful, way to size using units and pattern like these: 'do 1 hour of gym 3 times a week', 'work at the office 7 hours a day 5 times a week', etc. This point will take some time to master. Be patient. ",
+  "TUTORIAL_SLIDE3a_TITLE": "6. Size activities time need with units and patterns",
+  "TUTORIAL_SLIDE3a_DESCRIPTION": "Sizing is a critical fine art that can only be learnt by experimenting and doing. Luckets uses a simple, but powerful, way to size using units and pattern.'do 1 hour of gym 3 times a week', 'work at office 7 hours a day 5 times a week', etc. This point will take some time to master. I will help.",
   "TUTORIAL_SLIDE3a_EXAMPLE": "Example: Say you are assessing your action 'do gym for 30 mins 4 days a week'....to be continued",
 
 
