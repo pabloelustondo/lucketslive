@@ -18,66 +18,70 @@
   "TUTORIAL_CONTINUE_BUTTON" : "Continue",
 
   "TUTORIAL_SLIDE0_TITLE": "Hello, I'm Luckets.",
-  "TUTORIAL_SLIDE0_DESCRIPTION":"I'm a technological advanced personal assistant, backed by artificial inteligence, to help you know yourself, live better and be happier",
+  "TUTORIAL_SLIDE0_DESCRIPTION":"I'm a technologically advanced personal assistant, backed by artificial inteligence, to help live better and be happier. Data science for your greatness",
 
   "TUTORIAL_SLIDE02_TITLE": "Ancient wisdom on today's technology",
-  "TUTORIAL_SLIDE02_DESCRIPTION":"I was built around time-tested principles for conducting a wise, balanced and good life; borrowing from many thinkers from Epictetus 100 AD to Stephen Covey. I am a computer-based life-system that will help you thrive, enjoy more and even lead and help others",
+  "TUTORIAL_SLIDE02_DESCRIPTION":"I was built around time-tested principles for conducting a wise, balanced and good life; I combine many popular ideas from Epictetus' maxims, 100 AD, to Stephen Covey's habits. I am a computer-based life-system that will help you thrive, enjoy more and even lead and help others",
 
-  "TUTORIAL_SLIDE021_TITLE": "Becoming the best of you is not about goals or tasks",
-  "TUTORIAL_SLIDE021_DESCRIPTION":"I want to help you becoming the best of you, using your time on earth as wise as possible. But we should not care too much about arbitrary artificial goals or predefined tasks. Every day, we will re-assess and ask ourselves. How can I use this day, or week, or year to the fullest according to my interests?",
+  "TUTORIAL_SLIDE021_TITLE": "Also, I may help you managing primitive productivity tools",
+  "TUTORIAL_SLIDE021_DESCRIPTION":"Like most other humans in 2017, you may be using first generation productivity tools, such as Google's Calendar, Email, Docs, Tasks, etc. If you do, I may help you accessing, integrating and managing those tools",
 
-  "TUTORIAL_SLIDE03_TITLE": "Your wishes on our system for you",
-  "TUTORIAL_SLIDE03_DESCRIPTION":"In the next few slides, I will summarize our system through a series of steps to define and organize your life for the better. Enjoy and relax, we will guide you by proposing a very practical approach, with very concrete ideas and a rapid setup to reboot your life",
+  "TUTORIAL_SLIDE03_TITLE": "Ok, let's do a brief conceptual introduction",
+  "TUTORIAL_SLIDE03_DESCRIPTION":"In the next few slides, I will summarize our system through a series of points keeping a non technical conceptual level.",
 
 
-  "TUTORIAL_SLIDE1_TITLE": "Step 1. Identify everything you care in your life.",
-  "TUTORIAL_SLIDE1_DESCRIPTION": "We are going to consider everything. Everything you care. To do that I will start by proposing you the areas that most humans like you care about: health, family, your mind, money, friends, work, etc. and then we will add some specific ones for you. It will take some time, that is ok, it's your life ",
+  "TUTORIAL_SLIDE1_TITLE": "Point 1. Identify everything you care in your life.",
+  "TUTORIAL_SLIDE1_DESCRIPTION": "We are going to consider everything. Everything you care. To do that I will start by proposing you the areas that most humans like you care about: health, family, your mind, money, friends, work, etc. and then we will add some specific ones for you. Take your time, it's your life ",
 
-  "TUTORIAL_SLIDE11_TITLE": "Everything is connected but life needs focus",
-  "TUTORIAL_SLIDE11_DESCRIPTION": "To think or to act we need to focus on specifics. That is the pourpose of a 'Lucket', a specific isolated 'life bucket' that represents a permanent life subject that you plan to care and improve over time. I will track and analyze wishes, status and actions in your Luckets to help you become better",
+  "TUTORIAL_SLIDE11_TITLE": "Point 2. Organize everything you care into Luckets",
+  "TUTORIAL_SLIDE11_DESCRIPTION": "A 'Lucket', is a specific isolated 'life bucket' that represents one of those permanent life areas that you plan to care and improve over time. Our predefined Luckets will be fine most of the time but sometimes we will create specifics ones for you.",
 
 
   "TUTORIAL_SLIDE111_TITLE": "You life on Luckets",
-  "TUTORIAL_SLIDE111_DESCRIPTION": "When step 1 is done, you will have one lucket for anything you care. Now, you can forget about stuff outside your luckets.",
+  "TUTORIAL_SLIDE111_DESCRIPTION": "When done with point 1 and 2, you will have one lucket for anything you care. So, you can forget stuff outside your luckets.",
 
 
-  "TUTORIAL_SLIDE12_TITLE": "Step 2. Order the luckets to represent the priorities in your life",
+  "TUTORIAL_SLIDE12_TITLE": "Point 3. Order the luckets to define your priorities",
   "TUTORIAL_SLIDE12_DESCRIPTION": "All luckets are important but some will be more important to you when things go wrong. There a many ways to define priorities, sometimes is obvious, sometimes is a personal choice. I will propose you some initial order and then we will fine tune it to you",
 
-  "TUTORIAL_SLIDE2_TITLE": "Step 3. Assess the status of every lucket in your life",
-  "TUTORIAL_SLIDE2_DESCRIPTION": "Use this color code: Blue is perfection, stop. Green is pretty good. Yellow is warning, do something. Red is really bad, do something asap. White is skip or neglect, maybe is ok. Black is tragic, stop everything and do this.",
+  "TUTORIAL_SLIDE2_TITLE": "Point 4. Color code the status of all your luckets",
+  "TUTORIAL_SLIDE2_DESCRIPTION": "Blue is perfection, should stop. Green is pretty good, keep working. Yellow is warning, do something. Red is really bad, do something asap. White is skip or neglect, maybe is ok. Black is tragic, stop everything and do this.",
   "TUTORIAL_SLIDE2_EXAMPLE": "Example: Say you want to assess the status of your 'Health' lucket. If you feel fit, flexible, thin and nice but you still need to watch out your diet and your gym, put a green. Good job. If you are 5kg overweight, feel tired and having not going to gym recently put a yellow. If you are 20kgs overweight, have knee pain and cannot stop eating ice cream and smoking for breakfast, put a red. I would not use white here, your call, but neglecting your health is a bad strategy. I hope you never put black in this lucket. That is very sad, but may happen, specially is you do not stop that smoking. If you feel like the Dalai Lama going to the Olympics put a blue.",
 
-  "TUTORIAL_SLIDE2b_TITLE": "Step 3. Assess the status of every lucket in your life",
-  "TUTORIAL_SLIDE2b_DESCRIPTION": " Blue is perfection and you should stop. Green is pretty good but keep working. Yellow is warning, do something eventually . Red is pretty bad, please do something asap. White is neglect or skip. You decide not to care about this lucket. Black is tragic. You need to stop everything else with lower priority and take care of this lucket alone.",
-  "TUTORIAL_SLIDE2b_EXAMPLE": "Example: Say you want to assess the status of your 'Health' lucket. If you feel fit, flexible, thin and nice but you still need to watch out your diet and your gym, put a green. Good job. If you are 5kg overweight, feel tired and having not going to gym recently put a yellow. If you are 20kgs overweight, have knee pain and cannot stop eating ice cream and smoking for breakfast, put a red. I would not use white here, your call, but neglecting your health is a bad strategy. I hope you never put black in this lucket. That is very sad, but may happen, specially is you do not stop that smoking. If you feel like the Dalai Lama going to the Olympics put a blue.",
 
-
-  "TUTORIAL_SLIDE3_TITLE": "Step 4. Define activities for the week, season and year",
-  "TUTORIAL_SLIDE3_DESCRIPTION": "Life is about doing things we care within time frames. Humans living on earth work better using time frames based on the sun and the moon. The week is the best unit of planning, even earth was created in one. Some activities need a longer term, a season or a year",
+  "TUTORIAL_SLIDE3_TITLE": "Point 5. Write activities and goals for the week, month, season, year and beyond",
+  "TUTORIAL_SLIDE3_DESCRIPTION": "Life is about doing things within time frames. Humans on earth work better with sun or moon based time frames and the week is the best unit of planning but life also needs longer perspective, write also for season, a year or and 5 years.",
   "TUTORIAL_SLIDE3_EXAMPLE": "Example: Say you are assessing your action 'do gym for 30 mins 4 days a week'....to be continued",
 
-  "TUTORIAL_SLIDE3b_TITLE": "Step 5. Day by day, pick from your week list",
+
+
+  "TUTORIAL_SLIDE3a_TITLE": "Point 6. Size the activities with units and patterns",
+  "TUTORIAL_SLIDE3a_DESCRIPTION": "Sizing is a critical fine art to plan what to do. Luckets uses a simple, but powerful, way to size using units and pattern like these: 'do 1 hour of gym 3 times a week', 'work at the office 7 hours a day 5 times a week', etc. This point will take some time to master. Be patient. ",
+  "TUTORIAL_SLIDE3a_EXAMPLE": "Example: Say you are assessing your action 'do gym for 30 mins 4 days a week'....to be continued",
+
+
+
+  "TUTORIAL_SLIDE3b_TITLE": "Point 5. Day by day, pick from your week list",
   "TUTORIAL_SLIDE3b_DESCRIPTION": "We will always try, but is hard to perfectly plan a day. Some meetings will be fixed, but the rest should be adaptative. Together, we will intelligently assess our day circumstances and decide what is the best to do from your bucket lists. Carpe diem.",
   "TUTORIAL_SLIDE3b_EXAMPLE": "Example: Say you are assessing your action 'do gym for 30 mins 4 days a week'....to be continued",
 
 
-  "TUTORIAL_SLIDE4_TITLE": "Step 6. Day by day, assess your achievements within time frames",
+  "TUTORIAL_SLIDE4_TITLE": "Point 6. Day by day, assess your achievements within time frames",
   "TUTORIAL_SLIDE4_DESCRIPTION": "Similar to circles for lucket status, we use colored squares to show the status of activities within their time frame. The meaning is somehow similar. Blue means 'done', green 'in progress', etc",
   "TUTORIAL_SLIDE4_EXAMPLE": "Example: Say you are assessing your action 'do gym for 30 mins 4 days a week'....to be continued",
 
-  "TUTORIAL_SLIDE4b_TITLE": "Step 7. Tell me how much you love that lucket",
+  "TUTORIAL_SLIDE4b_TITLE": "Point 7. Tell me how much you love that lucket",
   "TUTORIAL_SLIDE4b_DESCRIPTION": "Not all luckets are the same when it comes to deal with them. Some thing we care stress us a lot, some of them relax us, some are in the middle. Use color coded triagles to tell me how you feel about it. Blue means love, read means hate",
   "TUTORIAL_SLIDE4b_EXAMPLE": "Example: Say you are assessing your action 'do gym for 30 mins 4 days a week'....to be continued",
 
 
-  "TUTORIAL_SLIDE5_TITLE": "Step 8. Tell me how you feel ",
+  "TUTORIAL_SLIDE5_TITLE": "Point 8. Tell me how you feel ",
   "TUTORIAL_SLIDE5_DESCRIPTION": "Humans are cute but complicated. You have feelingsand that greatly impact plans. For every lucket assess: general mood, feeling about circumstances, motivation, energy, focus. social need. Again, we will use a similar color code for this",
 
-  "TUTORIAL_SLIDE5b_TITLE": "Step 9. Keep our luckets alive",
+  "TUTORIAL_SLIDE5b_TITLE": "Point 9. Keep our luckets alive",
   "TUTORIAL_SLIDE5b_DESCRIPTION": "This system is not about taking hard decisions and stick to them for a long time. Is about ccontinously re-assesing, thinking, recalculating what is the best. Periodically, every week, or every day, we will re-asses your luckets and adapt to optimize our plan  ",
 
-  "TUTORIAL_SLIDE6_TITLE": "Step 10. Check my reports and advice",
+  "TUTORIAL_SLIDE6_TITLE": "Point 10. Check my reports and advice",
   "TUTORIAL_SLIDE6_DESCRIPTION": "Based on the historical data I will be collecting about your luckets, activities, feelings and information about your circunstances I will be continously giving you new advice, new ways to improve. We will be a team. ",
 
   "TUTORIAL_SLIDE_LAST_TITLE": "Good job. Now, please, slow down and relax. Press continue when your are ready, maybe tomorrow. Cheers.",

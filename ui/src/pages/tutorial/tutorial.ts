@@ -45,6 +45,9 @@ export class TutorialPage {
       "TUTORIAL_SLIDE3_TITLE",
       "TUTORIAL_SLIDE3_DESCRIPTION",
       "TUTORIAL_SLIDE3_EXAMPLE",
+      "TUTORIAL_SLIDE3a_TITLE",
+      "TUTORIAL_SLIDE3a_DESCRIPTION",
+      "TUTORIAL_SLIDE3a_EXAMPLE",
       "TUTORIAL_SLIDE3b_TITLE",
       "TUTORIAL_SLIDE3b_DESCRIPTION",
       "TUTORIAL_SLIDE3b_EXAMPLE",
@@ -77,6 +80,10 @@ export class TutorialPage {
             description: values.TUTORIAL_SLIDE02_DESCRIPTION
           },
           {
+            title: values.TUTORIAL_SLIDE021_TITLE,
+            description: values.TUTORIAL_SLIDE021_DESCRIPTION
+          },
+          {
             title: values.TUTORIAL_SLIDE03_TITLE,
             description: values.TUTORIAL_SLIDE03_DESCRIPTION,
           },
@@ -106,6 +113,11 @@ export class TutorialPage {
             title: values.TUTORIAL_SLIDE3_TITLE,
             description: values.TUTORIAL_SLIDE3_DESCRIPTION,
             example: values.TUTORIAL_SLIDE3_EXAMPLE,
+          },
+          {
+            title: values.TUTORIAL_SLIDE3a_TITLE,
+            description: values.TUTORIAL_SLIDE3a_DESCRIPTION,
+            example: values.TUTORIAL_SLIDE3a_EXAMPLE,
           },
           {
             title: values.TUTORIAL_SLIDE3b_TITLE,

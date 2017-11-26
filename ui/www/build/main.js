@@ -581,6 +581,9 @@ var TutorialPage = (function () {
             "TUTORIAL_SLIDE3_TITLE",
             "TUTORIAL_SLIDE3_DESCRIPTION",
             "TUTORIAL_SLIDE3_EXAMPLE",
+            "TUTORIAL_SLIDE3a_TITLE",
+            "TUTORIAL_SLIDE3a_DESCRIPTION",
+            "TUTORIAL_SLIDE3a_EXAMPLE",
             "TUTORIAL_SLIDE3b_TITLE",
             "TUTORIAL_SLIDE3b_DESCRIPTION",
             "TUTORIAL_SLIDE3b_EXAMPLE",
@@ -612,6 +615,10 @@ var TutorialPage = (function () {
                     description: values.TUTORIAL_SLIDE02_DESCRIPTION
                 },
                 {
+                    title: values.TUTORIAL_SLIDE021_TITLE,
+                    description: values.TUTORIAL_SLIDE021_DESCRIPTION
+                },
+                {
                     title: values.TUTORIAL_SLIDE03_TITLE,
                     description: values.TUTORIAL_SLIDE03_DESCRIPTION,
                 },
@@ -641,6 +648,11 @@ var TutorialPage = (function () {
                     title: values.TUTORIAL_SLIDE3_TITLE,
                     description: values.TUTORIAL_SLIDE3_DESCRIPTION,
                     example: values.TUTORIAL_SLIDE3_EXAMPLE,
+                },
+                {
+                    title: values.TUTORIAL_SLIDE3a_TITLE,
+                    description: values.TUTORIAL_SLIDE3a_DESCRIPTION,
+                    example: values.TUTORIAL_SLIDE3a_EXAMPLE,
                 },
                 {
                     title: values.TUTORIAL_SLIDE3b_TITLE,
@@ -694,7 +706,7 @@ var TutorialPage = (function () {
 }());
 TutorialPage = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-        selector: 'page-tutorial',template:/*ion-inline-start:"/Users/pabloelustondo/lucketslive/ui/src/pages/tutorial/tutorial.html"*/'<ion-header no-shadow>\n  <ion-navbar>\n    <ion-buttons end *ngIf="showSkip">\n      <button ion-button (click)="startApp()" color="primary">{{ \'TUTORIAL_SKIP_BUTTON\' | translate}}</button>\n    </ion-buttons>\n  </ion-navbar>\n</ion-header>\n\n<ion-content no-bounce>\n  <ion-slides pager="true" (ionSlideWillChange)="onSlideChangeStart($event)">\n    <ion-slide *ngFor="let slide of slides">\n      <img *ngIf="slide.image" [src]="slide.image" class="slide-image" />\n      <h1 class="slide-title" [innerHTML]="slide.title"></h1>\n      <p *ngIf="slide.description" [innerHTML]="slide.description"></p>\n    </ion-slide>\n    <ion-slide>\n      <img src="assets/img/ica-slidebox-img-last.png" class="slide-image" />\n      <h2 class="slide-title">{{ \'TUTORIAL_SLIDE_LAST_TITLE\' | translate }}</h2>\n      <button ion-button icon-end large clear (click)="startApp()">\n        {{ \'TUTORIAL_CONTINUE_BUTTON\' | translate }}\n        <ion-icon name="arrow-forward"></ion-icon>\n      </button>\n    </ion-slide>\n  </ion-slides>\n</ion-content>\n'/*ion-inline-end:"/Users/pabloelustondo/lucketslive/ui/src/pages/tutorial/tutorial.html"*/
+        selector: 'page-tutorial',template:/*ion-inline-start:"/Users/pabloelustondo/lucketslive/ui/src/pages/tutorial/tutorial.html"*/'<ion-header no-shadow>\n  <ion-navbar>\n    <ion-buttons end *ngIf="showSkip">\n      <button ion-button (click)="startApp()" color="primary">{{ \'TUTORIAL_SKIP_BUTTON\' | translate}}</button>\n    </ion-buttons>\n  </ion-navbar>\n</ion-header>\n\n<ion-content no-bounce>\n  <ion-slides pager="true" (ionSlideWillChange)="onSlideChangeStart($event)">\n    <ion-slide *ngFor="let slide of slides">\n      <h1 class="slide-title" [innerHTML]="slide.title"></h1>\n      <img *ngIf="slide.image" [src]="slide.image" class="slide-image" />\n      <p *ngIf="slide.description" [innerHTML]="slide.description"></p>\n    </ion-slide>\n    <ion-slide>\n      <img src="assets/img/ica-slidebox-img-last.png" class="slide-image" />\n      <h2 class="slide-title">{{ \'TUTORIAL_SLIDE_LAST_TITLE\' | translate }}</h2>\n      <button ion-button icon-end large clear (click)="startApp()">\n        {{ \'TUTORIAL_CONTINUE_BUTTON\' | translate }}\n        <ion-icon name="arrow-forward"></ion-icon>\n      </button>\n    </ion-slide>\n  </ion-slides>\n</ion-content>\n'/*ion-inline-end:"/Users/pabloelustondo/lucketslive/ui/src/pages/tutorial/tutorial.html"*/
     }),
     __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* MenuController */], __WEBPACK_IMPORTED_MODULE_3__ngx_translate_core__["c" /* TranslateService */]])
 ], TutorialPage);
