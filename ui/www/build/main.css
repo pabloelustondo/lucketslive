@@ -25230,11 +25230,12 @@ page-item-create .profile-image-wrapper .profile-image-placeholder ion-icon {
 }
 
 page-item-detail .item-profile {
+  border-style: solid;
   width: 100px;
   background-position: center center;
   background-size: cover;
   height: 100px;
-  display: inline-block;
+  float: left;
 }
 
 page-item-detail .item-profile2 {
@@ -25253,20 +25254,17 @@ page-item-detail .item-detail {
 }
 
 page-item-detail .item-detail-description {
+  clear: left;
   width: 100%;
   background: white;
-  position: absolute;
 }
 
 page-item-detail .lucketStatus {
   margin-bottom: 20px;
-  background: yellow;
   width: 20px;
   height: 20px;
-  border-radius: 50%;
-  border-color: black;
-  border-style: solid;
-  border-width: 1px;
+  border-radius: 10px;
+  background: red;
   display: inline-block;
 }
 
@@ -25286,6 +25284,28 @@ page-item-detail .lucketActionStatus {
   width: 20px;
   background: green;
   display: inline-block;
+}
+
+page-item-detail .lucketSensorStatus {
+  width: 20px;
+  height: 7px;
+  background: red;
+  display: inline-block;
+}
+
+page-item-detail .lucketSensors {
+  width: 100%;
+}
+
+page-item-detail .lucketStatuses {
+  width: 100%;
+}
+
+page-item-detail .lucketStatusAndSensors {
+  padding-top: 20px;
+  border-style: solid;
+  height: 100px;
+  float: left;
 }
 
 page-list-master .picture {
@@ -25330,7 +25350,7 @@ page-list-master .lucketActionStatus {
 
 page-list-master .lucketSensorStatus {
   width: 20px;
-  height: 5px;
+  height: 7px;
   background: red;
   display: inline-block;
 }

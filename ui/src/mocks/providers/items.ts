@@ -1,64 +1,19 @@
 import { Injectable } from '@angular/core';
 import { Http } from '@angular/http';
+import { LktLucket  } from '../../../../ts/model/luckets'
+import { LktTestLuckets } from '../../../../ts/testdata/testluckets'
 
 import { Item } from '../../models/item';
 
 @Injectable()
 export class Items {
-  items: Item[] = [];
-
-  defaultItem: any = {
-    "name": "Burt Bear",
-    "profilePic": "assets/img/speakers/bear.jpg",
-    "about": "Burt is a Bear.",
-  };
-
+  items: LktLucket[] = [];
 
   constructor(public http: Http) {
-    let items = [
-      {
-        "name": "A1-Mind",
-        "picture": "assets/img/factoryLuckets/a1-mind.png",
-        "description": `You mind is before anything, nothing should be done or plan
-        until your mind is on a resonable level of functioning and control`,
-        "comment":`any news / comments?`,
-        "dayAction":`Check active luckets`,
-        "weekAction":`Calm down, review all your luckets`
-      },
-      {
-        "name": "Charlie Cheetah",
-        "profilePic": "assets/img/speakers/cheetah.jpg",
-        "about": "Charlie is a Cheetah."
-      },
-      {
-        "name": "Donald Duck",
-        "profilePic": "assets/img/speakers/duck.jpg",
-        "about": "Donald is a Duck."
-      },
-      {
-        "name": "Eva Eagle",
-        "profilePic": "assets/img/speakers/eagle.jpg",
-        "about": "Eva is an Eagle."
-      },
-      {
-        "name": "Ellie Elephant",
-        "profilePic": "assets/img/speakers/elephant.jpg",
-        "about": "Ellie is an Elephant."
-      },
-      {
-        "name": "Molly Mouse",
-        "profilePic": "assets/img/speakers/mouse.jpg",
-        "about": "Molly is a Mouse."
-      },
-      {
-        "name": "Paul Puppy",
-        "profilePic": "assets/img/speakers/puppy.jpg",
-        "about": "Paul is a Puppy."
-      }
-    ];
+    let items:LktLucket[]  = LktTestLuckets;
 
     for (let item of items) {
-      this.items.push(new Item(item));
+      this.items.push(item);
     }
   }
 

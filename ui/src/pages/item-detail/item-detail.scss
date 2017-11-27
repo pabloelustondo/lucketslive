@@ -1,10 +1,11 @@
 page-item-detail {
   .item-profile {
+    border-style: solid;
     width: 100px;
     background-position: center center;
     background-size: cover;
     height: 100px;
-    display: inline-block;
+    float:left;
   }
   .item-profile2 {
     width: 50px;
@@ -22,20 +23,17 @@ page-item-detail {
   }
 
   .item-detail-description {
+    clear: left;
     width: 100%;
     background: white;
-    position: absolute;
   }
 
   .lucketStatus {
     margin-bottom: 20px;
-    background: yellow;
     width: 20px;
     height: 20px;
-    border-radius: 50%;
-    border-color: black;
-    border-style: solid;
-    border-width: 1px;
+    border-radius: 10px;
+    background: red;
     display: inline-block;
   }
 
@@ -57,6 +55,30 @@ page-item-detail {
     background: green;
 
     display: inline-block;
+  }
+
+
+  .lucketSensorStatus  {
+    width: 20px;
+    height: 7px;
+    background: red;
+
+    display: inline-block;
+  }
+
+  .lucketSensors  {
+    width: 100%;
+  }
+
+  .lucketStatuses  {
+    width: 100%;
+  }
+
+  .lucketStatusAndSensors  {
+    padding-top: 20px;
+    border-style: solid;
+    height: 100px;
+    float:left;
   }
 
 }

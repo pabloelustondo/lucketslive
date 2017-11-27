@@ -103,7 +103,7 @@ var ListMasterPage = (function () {
 }());
 ListMasterPage = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-        selector: 'page-list-master',template:/*ion-inline-start:"/Users/pabloelustondo/lucketslive/ui/src/pages/list-master/list-master.html"*/'<ion-header>\n\n  <ion-navbar>\n    <ion-title>{{ \'LIST_MASTER_TITLE\' | translate }}</ion-title>\n\n    <ion-buttons end>\n      <button ion-button icon-only (click)="addItem()">\n        <ion-icon name="add"></ion-icon>\n      </button>\n    </ion-buttons>\n  </ion-navbar>\n\n</ion-header>\n\n<ion-content>\n\n  <ion-list>\n    <ion-item-sliding *ngFor="let item of currentItems" >\n      <button ion-item (click)="openItem(item)" text-wrap>\n        <ion-avatar item-start>\n          <img class = "picture" [src]="item.picture" />\n        </ion-avatar>\n        <div>  <!-- status row: status, stinky, actions/points -->\n          <div class = "lucketStatus" ></div>\n          <div class = "lucketStink" ></div>\n          <div class = "lucketActionStatus" ></div>\n          <div class = "lucketActionStatus" ></div>\n          <div class = "lucketActionStatus" ></div>\n          <div class = "lucketActionStatus" ></div>\n        </div>\n        <div class = "name"><h2>{{item.name}}</h2></div>\n        <div>  <!-- status row: status, stinky, actions/points -->\n          <div class = "lucketSensorStatus" ></div>\n          <div class = "lucketSensorStatus" ></div>\n          <div class = "lucketSensorStatus" ></div>\n          <div class = "lucketSensorStatus" ></div>\n          <div class = "lucketSensorStatus" ></div>\n          <div class = "lucketSensorStatus" ></div>\n        </div>\n        <p>{{item.description}}</p>\n        <p>{{item.comment}}</p>\n        <ion-note item-end *ngIf="item.note">{{item.note}}</ion-note>\n      </button>\n\n      <ion-item-options>\n        <button ion-button color="danger" (click)="deleteItem(item)">\n          {{ \'DELETE_BUTTON\' | translate }}\n        </button>\n      </ion-item-options>\n    </ion-item-sliding>\n  </ion-list>\n</ion-content>\n'/*ion-inline-end:"/Users/pabloelustondo/lucketslive/ui/src/pages/list-master/list-master.html"*/
+        selector: 'page-list-master',template:/*ion-inline-start:"/Users/pabloelustondo/lucketslive/ui/src/pages/list-master/list-master.html"*/'<ion-header>\n\n  <ion-navbar>\n    <ion-title>{{ \'LIST_MASTER_TITLE\' | translate }}</ion-title>\n\n    <ion-buttons end>\n      <button ion-button icon-only (click)="addItem()">\n        <ion-icon name="add"></ion-icon>\n      </button>\n    </ion-buttons>\n  </ion-navbar>\n\n</ion-header>\n\n<ion-content>\n\n  <ion-list>\n    <ion-item-sliding *ngFor="let item of currentItems" >\n      <button ion-item (click)="openItem(item)" text-wrap>\n        <ion-avatar item-start>\n          <img class = "picture" [src]="item.picture" />\n        </ion-avatar>\n        <div>  <!-- status row: status, stinky, actions/points -->\n          <div class = "lucketStatus" ></div>\n          <div class = "lucketStink" ></div>\n          <div class = "lucketActionStatus" ></div>\n          <div class = "lucketActionStatus" ></div>\n          <div class = "lucketActionStatus" ></div>\n          <div class = "lucketActionStatus" ></div>\n          <div class = "lucketActionStatus" ></div>\n          <div class = "lucketActionStatus" ></div>\n        </div>\n        <div class = "name"><h2>{{item.name}}</h2></div>\n        <div>  <!-- status row: status, stinky, actions/points -->\n          <div class = "lucketSensorStatus" ></div>\n          <div class = "lucketSensorStatus" ></div>\n          <div class = "lucketSensorStatus" ></div>\n          <div class = "lucketSensorStatus" ></div>\n          <div class = "lucketSensorStatus" ></div>\n          <div class = "lucketSensorStatus" ></div>\n          <div class = "lucketSensorStatus" ></div>\n          <div class = "lucketSensorStatus" ></div>\n        </div>\n        <p>{{item.description}}</p>\n        <p>{{item.comment}}</p>\n        <ion-note item-end *ngIf="item.note">{{item.note}}</ion-note>\n      </button>\n\n      <ion-item-options>\n        <button ion-button color="danger" (click)="deleteItem(item)">\n          {{ \'DELETE_BUTTON\' | translate }}\n        </button>\n      </ion-item-options>\n    </ion-item-sliding>\n  </ion-list>\n</ion-content>\n'/*ion-inline-end:"/Users/pabloelustondo/lucketslive/ui/src/pages/list-master/list-master.html"*/
     }),
     __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavController */], __WEBPACK_IMPORTED_MODULE_4__providers_providers__["a" /* Items */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* ModalController */]])
 ], ListMasterPage);
@@ -135,13 +135,13 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 var ItemDetailPage = (function () {
     function ItemDetailPage(navCtrl, navParams, items) {
         this.navCtrl = navCtrl;
-        this.item = navParams.get('item') || items.defaultItem;
+        this.item = navParams.get('item');
     }
     return ItemDetailPage;
 }());
 ItemDetailPage = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-        selector: 'page-item-detail',template:/*ion-inline-start:"/Users/pabloelustondo/lucketslive/ui/src/pages/item-detail/item-detail.html"*/'<ion-header>\n\n  <ion-navbar>\n    <ion-title>{{ item.name }}</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content>\n  <div class="item-profile" text-center #profilePic [style.background-image]="\'url(\' + item.picture + \')\'"></div>\n    <div class = "lucketStatus" ></div>\n    <div class = "lucketStink" ></div>\n    <div class = "lucketActionStatus" ></div>\n    <div class = "lucketActionStatus" ></div>\n    <div class = "lucketActionStatus" ></div>\n    <div class = "lucketActionStatus" ></div>\n  <div class="item-detail-description">\n    <p>{{item.description}}</p>\n  </div>\n\n\n\n</ion-content>\n'/*ion-inline-end:"/Users/pabloelustondo/lucketslive/ui/src/pages/item-detail/item-detail.html"*/
+        selector: 'page-item-detail',template:/*ion-inline-start:"/Users/pabloelustondo/lucketslive/ui/src/pages/item-detail/item-detail.html"*/'<ion-header>\n\n  <ion-navbar>\n    <ion-title>{{ item.name }}</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content>\n  <div class="item-profile" text-center #profilePic [style.background-image]="\'url(\' + item.picture + \')\'"></div>\n  <div class="lucketStatusAndSensors">\n  <div class="lucketStatuses">\n    <div class = "lucketStatus" ></div>\n    <div class = "lucketStink" ></div>\n    <div class = "lucketStatus" ></div>\n    <div class = "lucketActionStatus" ></div>\n    <div class = "lucketActionStatus" ></div>\n    <div class = "lucketActionStatus" ></div>\n    <div class = "lucketStatus" ></div>\n    <div class = "lucketActionStatus" ></div>\n  </div>\n  <div class="lucketSensors">  <!-- status row: status, stinky, actions/points -->\n    <div class = "lucketSensorStatus" ></div>\n    <div class = "lucketSensorStatus" ></div>\n    <div class = "lucketSensorStatus" ></div>\n    <div class = "lucketSensorStatus" ></div>\n    <div class = "lucketSensorStatus" ></div>\n    <div class = "lucketSensorStatus" ></div>\n    <div class = "lucketSensorStatus" ></div>\n    <div class = "lucketSensorStatus" ></div>\n  </div>\n  </div>\n\n  <div class="item-detail-description">\n    <p>{{item.description}}</p>\n  </div>\n\n\n\n\n</ion-content>\n'/*ion-inline-end:"/Users/pabloelustondo/lucketslive/ui/src/pages/item-detail/item-detail.html"*/
     }),
     __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavParams */], __WEBPACK_IMPORTED_MODULE_2__providers_providers__["a" /* Items */]])
 ], ItemDetailPage);
@@ -973,7 +973,7 @@ ItemCreatePage = __decorate([
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return Items; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_http__ = __webpack_require__(43);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__models_item__ = __webpack_require__(299);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ts_testdata_testluckets__ = __webpack_require__(299);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -990,54 +990,10 @@ var Items = (function () {
     function Items(http) {
         this.http = http;
         this.items = [];
-        this.defaultItem = {
-            "name": "Burt Bear",
-            "profilePic": "assets/img/speakers/bear.jpg",
-            "about": "Burt is a Bear.",
-        };
-        var items = [
-            {
-                "name": "A1-Mind",
-                "picture": "assets/img/factoryLuckets/a1-mind.png",
-                "description": "You mind is before anything, nothing should be done or plan\n        until your mind is on a resonable level of functioning and control",
-                "comment": "any news / comments?",
-                "dayAction": "Check active luckets",
-                "weekAction": "Calm down, review all your luckets"
-            },
-            {
-                "name": "Charlie Cheetah",
-                "profilePic": "assets/img/speakers/cheetah.jpg",
-                "about": "Charlie is a Cheetah."
-            },
-            {
-                "name": "Donald Duck",
-                "profilePic": "assets/img/speakers/duck.jpg",
-                "about": "Donald is a Duck."
-            },
-            {
-                "name": "Eva Eagle",
-                "profilePic": "assets/img/speakers/eagle.jpg",
-                "about": "Eva is an Eagle."
-            },
-            {
-                "name": "Ellie Elephant",
-                "profilePic": "assets/img/speakers/elephant.jpg",
-                "about": "Ellie is an Elephant."
-            },
-            {
-                "name": "Molly Mouse",
-                "profilePic": "assets/img/speakers/mouse.jpg",
-                "about": "Molly is a Mouse."
-            },
-            {
-                "name": "Paul Puppy",
-                "profilePic": "assets/img/speakers/puppy.jpg",
-                "about": "Paul is a Puppy."
-            }
-        ];
+        var items = __WEBPACK_IMPORTED_MODULE_2__ts_testdata_testluckets__["a" /* LktTestLuckets */];
         for (var _i = 0, items_1 = items; _i < items_1.length; _i++) {
             var item = items_1[_i];
-            this.items.push(new __WEBPACK_IMPORTED_MODULE_2__models_item__["a" /* Item */](item));
+            this.items.push(item);
         }
     }
     Items.prototype.query = function (params) {
@@ -1291,7 +1247,7 @@ Object(__WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__["a" /* pl
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_26__ionic_native_splash_screen__ = __webpack_require__(219);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_27__ionic_native_status_bar__ = __webpack_require__(216);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_28__ngx_translate_core__ = __webpack_require__(30);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_29__ngx_translate_http_loader__ = __webpack_require__(310);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_29__ngx_translate_http_loader__ = __webpack_require__(309);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -1546,103 +1502,25 @@ MyApp = __decorate([
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return Item; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__ts_model_luckets__ = __webpack_require__(300);
-/**
- * A generic model that our Master-Detail pages list, create, and delete.
- *
- * Change "Item" to the noun your app will use. For example, a "Contact," or a
- * "Customer," or a "Animal," or something like that.
- *
- * The Items service manages creating instances of Item, so go ahead and rename
- * that something that fits your app as well.
- */
-var __extends = (this && this.__extends) || (function () {
-    var extendStatics = Object.setPrototypeOf ||
-        ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
-        function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
-    return function (d, b) {
-        extendStatics(d, b);
-        function __() { this.constructor = d; }
-        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
-    };
-})();
-
-var Item = (function (_super) {
-    __extends(Item, _super);
-    function Item(fields) {
-        return _super.call(this, fields) || this;
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return LktTestLuckets; });
+var LktTestLuckets = [
+    {
+        "name": "Life",
+        "picture": "assets/img/factoryLuckets/life-icon.png",
+        "description": "This Lucket represents all your life. The status, sizes that you see are being calculated based on your luckets below. Use this lucket to have a general sense of you today. ",
+        "dayAction": { description: "plan day, execute your best, close your day" },
+        "weekAction": { description: "Calm down, review / asses main luckets" }
+    },
+    {
+        "name": "A1-Mind",
+        "picture": "assets/img/factoryLuckets/a1-mind.png",
+        "description": "You mind is before anything, nothing should be done or plan\n        until your mind is on a resonable level of functioning and control",
+        "comment": "any news / comments?",
+        "dayAction": { description: "Check active luckets" },
+        "weekAction": { description: "Get all my luckets into luckets" }
     }
-    return Item;
-}(__WEBPACK_IMPORTED_MODULE_0__ts_model_luckets__["a" /* LktLucket */]));
-
-//# sourceMappingURL=item.js.map
-
-/***/ }),
-
-/***/ 300:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* unused harmony export LktStatus */
-/* unused harmony export LktEntity */
-/* unused harmony export LktAction */
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return LktLucket; });
-/**
- * Created by pabloelustondo on 2017-09-02.
- */
-var __extends = (this && this.__extends) || (function () {
-    var extendStatics = Object.setPrototypeOf ||
-        ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
-        function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
-    return function (d, b) {
-        extendStatics(d, b);
-        function __() { this.constructor = d; }
-        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
-    };
-})();
-/**
- * Created by pabloelustondo on 2017-09-02.
- */ var LktStatus;
-(function (LktStatus) {
-    LktStatus[LktStatus["Blue"] = 0] = "Blue";
-    LktStatus[LktStatus["Green"] = 1] = "Green";
-    LktStatus[LktStatus["White"] = 2] = "White";
-    LktStatus[LktStatus["Yellow"] = 3] = "Yellow";
-    LktStatus[LktStatus["Read"] = 4] = "Read";
-    LktStatus[LktStatus["Black"] = 5] = "Black";
-})(LktStatus || (LktStatus = {}));
-;
-var LktEntity = (function () {
-    function LktEntity() {
-    }
-    return LktEntity;
-}());
-
-var LktAction = (function (_super) {
-    __extends(LktAction, _super);
-    function LktAction() {
-        return _super !== null && _super.apply(this, arguments) || this;
-    }
-    return LktAction;
-}(LktEntity));
-
-var LktLucket = (function (_super) {
-    __extends(LktLucket, _super);
-    function LktLucket(fields) {
-        var _this = 
-        // Quick and dirty extend/assign fields to this model
-        _super.call(this) || this;
-        _this.fields = fields;
-        for (var f in fields) {
-            _this[f] = fields[f];
-        }
-        return _this;
-    }
-    return LktLucket;
-}(LktEntity));
-
-//# sourceMappingURL=luckets.js.map
+];
+//# sourceMappingURL=testluckets.js.map
 
 /***/ }),
 

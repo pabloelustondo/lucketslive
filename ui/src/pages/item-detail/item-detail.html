@@ -9,15 +9,33 @@
 
 <ion-content>
   <div class="item-profile" text-center #profilePic [style.background-image]="'url(' + item.picture + ')'"></div>
+  <div class="lucketStatusAndSensors">
+  <div class="lucketStatuses">
     <div class = "lucketStatus" ></div>
     <div class = "lucketStink" ></div>
+    <div class = "lucketStatus" ></div>
     <div class = "lucketActionStatus" ></div>
     <div class = "lucketActionStatus" ></div>
     <div class = "lucketActionStatus" ></div>
+    <div class = "lucketStatus" ></div>
     <div class = "lucketActionStatus" ></div>
+  </div>
+  <div class="lucketSensors">  <!-- status row: status, stinky, actions/points -->
+    <div class = "lucketSensorStatus" ></div>
+    <div class = "lucketSensorStatus" ></div>
+    <div class = "lucketSensorStatus" ></div>
+    <div class = "lucketSensorStatus" ></div>
+    <div class = "lucketSensorStatus" ></div>
+    <div class = "lucketSensorStatus" ></div>
+    <div class = "lucketSensorStatus" ></div>
+    <div class = "lucketSensorStatus" ></div>
+  </div>
+  </div>
+
   <div class="item-detail-description">
     <p>{{item.description}}</p>
   </div>
+
 
 
 

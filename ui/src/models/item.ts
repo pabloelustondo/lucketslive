@@ -11,7 +11,7 @@
 import {LktLucket} from "../../../ts/model/luckets";
 
 export class Item extends LktLucket {
-  constructor(fields: any){
-    super(fields); // call to default constructor added implicitly
+  constructor(){
+    super(); // call to default constructor added implicitly
   }
 }
