@@ -1,7 +1,7 @@
 <ion-header>
 
   <ion-navbar>
-    <ion-title>{{ 'LIST_MASTER_TITLE' | translate }}</ion-title>
+    <ion-title>{{ 'LIST_MASTER_TITLE' | translate }} DAY </ion-title>
 
     <ion-buttons end>
       <button ion-button icon-only (click)="addItem()">
@@ -20,17 +20,27 @@
         <ion-avatar item-start>
           <img class = "picture" [src]="item.picture" />
         </ion-avatar>
-        <div>  <!-- status row: status, stinky, actions/points -->
+        <div >  <!-- status row: status, stinky, actions/points -->
           <div class = "lucketStatus" ></div>
           <div class = "lucketStink" ></div>
-          <div class = "lucketActionStatus" ></div>
-          <div class = "lucketActionStatus" ></div>
-          <div class = "lucketActionStatus" ></div>
-          <div class = "lucketActionStatus" ></div>
-          <div class = "lucketActionStatus" ></div>
-          <div class = "lucketActionStatus" ></div>
+          <div [class] = "'lucketActionStatus ' + item.dayAction.status" ></div>
+          <div [class] = "'lucketActionStatus ' + item.weekAction.status" ></div>
+          <div [class] = "'lucketActionStatus ' + item.monthAction.status" ></div>
+
+          <div [class] = "'lucketActionStatus ' + item.seasonAction.status" ></div>
+          <div [class] = "'lucketActionStatus ' + item.yearAction.status" ></div>
+          <div [class] = "'lucketActionStatus ' + item.year5Action.status" ></div>
         </div>
-        <div class = "name"><h2>{{item.name}}</h2></div>
+        <table>
+          <tr>
+            <td >
+            <div class = "name"><h2>{{item.name}}</h2></div>
+            </td>
+            <td >
+                <h2 class = "lucketSensorStatusFocus">9/9999</h2>
+            </td>
+          </tr>
+        </table>
         <div>  <!-- status row: status, stinky, actions/points -->
           <div class = "lucketSensorStatus" ></div>
           <div class = "lucketSensorStatus" ></div>

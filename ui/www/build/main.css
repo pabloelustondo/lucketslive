@@ -25308,6 +25308,30 @@ page-item-detail .lucketStatusAndSensors {
   float: left;
 }
 
+page-item-detail .blue {
+  background: blue;
+}
+
+page-item-detail .red {
+  background: red;
+}
+
+page-item-detail .yellow {
+  background: yellow;
+}
+
+page-item-detail .green {
+  background: green;
+}
+
+page-item-detail .black {
+  background: black;
+}
+
+page-item-detail .white {
+  background: white;
+}
+
 page-list-master .picture {
   width: 60px;
   height: 60px;
@@ -25344,19 +25368,58 @@ page-list-master .lucketStink {
 page-list-master .lucketActionStatus {
   height: 20px;
   width: 20px;
-  background: green;
+  display: inline-block;
+  border-color: black;
+  border-style: solid;
+  border-width: 1px;
+}
+
+page-list-master .lucketActionStatusFocus {
+  height: 20px;
+  font-weight: 900;
   display: inline-block;
 }
 
 page-list-master .lucketSensorStatus {
   width: 20px;
-  height: 7px;
+  height: 10px;
   background: red;
+  border-color: black;
+  border-style: solid;
+  border-width: 1px;
   display: inline-block;
 }
 
 page-list-master .name {
+  width: 150px;
+  float: left;
+  font-weight: 900;
   display: inline-block;
+}
+
+page-list-master .blue {
+  background: blue;
+}
+
+page-list-master .red {
+  background: red;
+  color: white;
+}
+
+page-list-master .yellow {
+  background: yellow;
+}
+
+page-list-master .green {
+  background: green;
+}
+
+page-list-master .black {
+  background: black;
+}
+
+page-list-master .white {
+  background: white;
 }
 
 page-map #map {

@@ -103,7 +103,7 @@ var ListMasterPage = (function () {
 }());
 ListMasterPage = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-        selector: 'page-list-master',template:/*ion-inline-start:"/Users/pabloelustondo/lucketslive/ui/src/pages/list-master/list-master.html"*/'<ion-header>\n\n  <ion-navbar>\n    <ion-title>{{ \'LIST_MASTER_TITLE\' | translate }}</ion-title>\n\n    <ion-buttons end>\n      <button ion-button icon-only (click)="addItem()">\n        <ion-icon name="add"></ion-icon>\n      </button>\n    </ion-buttons>\n  </ion-navbar>\n\n</ion-header>\n\n<ion-content>\n\n  <ion-list>\n    <ion-item-sliding *ngFor="let item of currentItems" >\n      <button ion-item (click)="openItem(item)" text-wrap>\n        <ion-avatar item-start>\n          <img class = "picture" [src]="item.picture" />\n        </ion-avatar>\n        <div>  <!-- status row: status, stinky, actions/points -->\n          <div class = "lucketStatus" ></div>\n          <div class = "lucketStink" ></div>\n          <div class = "lucketActionStatus" ></div>\n          <div class = "lucketActionStatus" ></div>\n          <div class = "lucketActionStatus" ></div>\n          <div class = "lucketActionStatus" ></div>\n          <div class = "lucketActionStatus" ></div>\n          <div class = "lucketActionStatus" ></div>\n        </div>\n        <div class = "name"><h2>{{item.name}}</h2></div>\n        <div>  <!-- status row: status, stinky, actions/points -->\n          <div class = "lucketSensorStatus" ></div>\n          <div class = "lucketSensorStatus" ></div>\n          <div class = "lucketSensorStatus" ></div>\n          <div class = "lucketSensorStatus" ></div>\n          <div class = "lucketSensorStatus" ></div>\n          <div class = "lucketSensorStatus" ></div>\n          <div class = "lucketSensorStatus" ></div>\n          <div class = "lucketSensorStatus" ></div>\n        </div>\n        <p>{{item.description}}</p>\n        <p>{{item.comment}}</p>\n        <ion-note item-end *ngIf="item.note">{{item.note}}</ion-note>\n      </button>\n\n      <ion-item-options>\n        <button ion-button color="danger" (click)="deleteItem(item)">\n          {{ \'DELETE_BUTTON\' | translate }}\n        </button>\n      </ion-item-options>\n    </ion-item-sliding>\n  </ion-list>\n</ion-content>\n'/*ion-inline-end:"/Users/pabloelustondo/lucketslive/ui/src/pages/list-master/list-master.html"*/
+        selector: 'page-list-master',template:/*ion-inline-start:"/Users/pabloelustondo/lucketslive/ui/src/pages/list-master/list-master.html"*/'<ion-header>\n\n  <ion-navbar>\n    <ion-title>{{ \'LIST_MASTER_TITLE\' | translate }} DAY </ion-title>\n\n    <ion-buttons end>\n      <button ion-button icon-only (click)="addItem()">\n        <ion-icon name="add"></ion-icon>\n      </button>\n    </ion-buttons>\n  </ion-navbar>\n\n</ion-header>\n\n<ion-content>\n\n  <ion-list>\n    <ion-item-sliding *ngFor="let item of currentItems" >\n      <button ion-item (click)="openItem(item)" text-wrap>\n        <ion-avatar item-start>\n          <img class = "picture" [src]="item.picture" />\n        </ion-avatar>\n        <div >  <!-- status row: status, stinky, actions/points -->\n          <div class = "lucketStatus" ></div>\n          <div class = "lucketStink" ></div>\n          <div [class] = "\'lucketActionStatus \' + item.dayAction.status" ></div>\n          <div [class] = "\'lucketActionStatus \' + item.weekAction.status" ></div>\n          <div [class] = "\'lucketActionStatus \' + item.monthAction.status" ></div>\n\n          <div [class] = "\'lucketActionStatus \' + item.seasonAction.status" ></div>\n          <div [class] = "\'lucketActionStatus \' + item.yearAction.status" ></div>\n          <div [class] = "\'lucketActionStatus \' + item.year5Action.status" ></div>\n        </div>\n        <table>\n          <tr>\n            <td >\n            <div class = "name"><h2>{{item.name}}</h2></div>\n            </td>\n            <td >\n                <h2 class = "lucketSensorStatusFocus">9/9999</h2>\n            </td>\n          </tr>\n        </table>\n        <div>  <!-- status row: status, stinky, actions/points -->\n          <div class = "lucketSensorStatus" ></div>\n          <div class = "lucketSensorStatus" ></div>\n          <div class = "lucketSensorStatus" ></div>\n          <div class = "lucketSensorStatus" ></div>\n          <div class = "lucketSensorStatus" ></div>\n          <div class = "lucketSensorStatus" ></div>\n          <div class = "lucketSensorStatus" ></div>\n          <div class = "lucketSensorStatus" ></div>\n        </div>\n        <p>{{item.description}}</p>\n        <p>{{item.comment}}</p>\n        <ion-note item-end *ngIf="item.note">{{item.note}}</ion-note>\n      </button>\n\n      <ion-item-options>\n        <button ion-button color="danger" (click)="deleteItem(item)">\n          {{ \'DELETE_BUTTON\' | translate }}\n        </button>\n      </ion-item-options>\n    </ion-item-sliding>\n  </ion-list>\n</ion-content>\n'/*ion-inline-end:"/Users/pabloelustondo/lucketslive/ui/src/pages/list-master/list-master.html"*/
     }),
     __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavController */], __WEBPACK_IMPORTED_MODULE_4__providers_providers__["a" /* Items */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* ModalController */]])
 ], ListMasterPage);
@@ -141,7 +141,7 @@ var ItemDetailPage = (function () {
 }());
 ItemDetailPage = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-        selector: 'page-item-detail',template:/*ion-inline-start:"/Users/pabloelustondo/lucketslive/ui/src/pages/item-detail/item-detail.html"*/'<ion-header>\n\n  <ion-navbar>\n    <ion-title>{{ item.name }}</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content>\n  <div class="item-profile" text-center #profilePic [style.background-image]="\'url(\' + item.picture + \')\'"></div>\n  <div class="lucketStatusAndSensors">\n  <div class="lucketStatuses">\n    <div class = "lucketStatus" ></div>\n    <div class = "lucketStink" ></div>\n    <div class = "lucketStatus" ></div>\n    <div class = "lucketActionStatus" ></div>\n    <div class = "lucketActionStatus" ></div>\n    <div class = "lucketActionStatus" ></div>\n    <div class = "lucketStatus" ></div>\n    <div class = "lucketActionStatus" ></div>\n  </div>\n  <div class="lucketSensors">  <!-- status row: status, stinky, actions/points -->\n    <div class = "lucketSensorStatus" ></div>\n    <div class = "lucketSensorStatus" ></div>\n    <div class = "lucketSensorStatus" ></div>\n    <div class = "lucketSensorStatus" ></div>\n    <div class = "lucketSensorStatus" ></div>\n    <div class = "lucketSensorStatus" ></div>\n    <div class = "lucketSensorStatus" ></div>\n    <div class = "lucketSensorStatus" ></div>\n  </div>\n  </div>\n\n  <div class="item-detail-description">\n    <p>{{item.description}}</p>\n  </div>\n\n\n\n\n</ion-content>\n'/*ion-inline-end:"/Users/pabloelustondo/lucketslive/ui/src/pages/item-detail/item-detail.html"*/
+        selector: 'page-item-detail',template:/*ion-inline-start:"/Users/pabloelustondo/lucketslive/ui/src/pages/item-detail/item-detail.html"*/'<ion-header>\n\n  <ion-navbar>\n    <ion-title>{{ item.name }}</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content>\n  <div class="item-profile" text-center #profilePic [style.background-image]="\'url(\' + item.picture + \')\'"></div>\n  <div class="lucketStatusAndSensors">\n  <div class="lucketStatuses">\n    <div [class] = "\'lucketStatus \' + item.status" ></div>\n    <div class = "lucketStink" ></div>\n    <div [class] = "\'lucketActionStatus \' + item.dayAction.status" ></div>\n    <div [class] = "\'lucketActionStatus \' + item.weekAction.status" ></div>\n    <div [class] = "\'lucketActionStatus \' + item.monthAction.status" ></div>\n    <div [class] = "\'lucketActionStatus \' + item.seasonAction.status" ></div>\n    <div [class] = "\'lucketActionStatus \' + item.yearAction.status" ></div>\n    <div [class] = "\'lucketActionStatus \' + item.year5Action.status" ></div>\n  </div>\n  <div class="lucketSensors">  <!-- status row: status, stinky, actions/points -->\n    <div class = "lucketSensorStatus" ></div>\n    <div class = "lucketSensorStatus" ></div>\n    <div class = "lucketSensorStatus" ></div>\n    <div class = "lucketSensorStatus" ></div>\n    <div class = "lucketSensorStatus" ></div>\n    <div class = "lucketSensorStatus" ></div>\n    <div class = "lucketSensorStatus" ></div>\n    <div class = "lucketSensorStatus" ></div>\n  </div>\n  </div>\n\n  <div class="item-detail-description">\n    <p>{{item.description}}</p>\n  </div>\n\n\n\n\n</ion-content>\n'/*ion-inline-end:"/Users/pabloelustondo/lucketslive/ui/src/pages/item-detail/item-detail.html"*/
     }),
     __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavParams */], __WEBPACK_IMPORTED_MODULE_2__providers_providers__["a" /* Items */]])
 ], ItemDetailPage);
@@ -973,7 +973,8 @@ ItemCreatePage = __decorate([
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return Items; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_http__ = __webpack_require__(43);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ts_testdata_testluckets__ = __webpack_require__(299);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ts_model_luckets__ = __webpack_require__(299);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ts_testdata_testluckets__ = __webpack_require__(300);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -986,38 +987,20 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 
 
 
+
 var Items = (function () {
     function Items(http) {
         this.http = http;
-        this.items = [];
-        var items = __WEBPACK_IMPORTED_MODULE_2__ts_testdata_testluckets__["a" /* LktTestLuckets */];
-        for (var _i = 0, items_1 = items; _i < items_1.length; _i++) {
-            var item = items_1[_i];
-            this.items.push(item);
-        }
+        this.lktModel = new __WEBPACK_IMPORTED_MODULE_2__ts_model_luckets__["a" /* LktLucketModel */](__WEBPACK_IMPORTED_MODULE_3__ts_testdata_testluckets__["a" /* LktTestLuckets */]);
     }
     Items.prototype.query = function (params) {
-        if (!params) {
-            return this.items;
-        }
-        return this.items.filter(function (item) {
-            for (var key in params) {
-                var field = item[key];
-                if (typeof field == 'string' && field.toLowerCase().indexOf(params[key].toLowerCase()) >= 0) {
-                    return item;
-                }
-                else if (field == params[key]) {
-                    return item;
-                }
-            }
-            return null;
-        });
+        return this.lktModel.luckets;
     };
     Items.prototype.add = function (item) {
-        this.items.push(item);
+        //later
     };
     Items.prototype.delete = function (item) {
-        this.items.splice(this.items.indexOf(item), 1);
+        //later
     };
     return Items;
 }());
@@ -1239,7 +1222,7 @@ Object(__WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__["a" /* pl
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__pages_tutorial_tutorial__ = __webpack_require__(122);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_19__pages_welcome_welcome__ = __webpack_require__(123);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_20__providers_api__ = __webpack_require__(114);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_21__mocks_providers_items__ = __webpack_require__(223);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_21__providers_items__ = __webpack_require__(223);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_22__providers_settings__ = __webpack_require__(115);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_23__providers_user__ = __webpack_require__(55);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_24__ionic_native_camera__ = __webpack_require__(222);
@@ -1247,7 +1230,7 @@ Object(__WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__["a" /* pl
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_26__ionic_native_splash_screen__ = __webpack_require__(219);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_27__ionic_native_status_bar__ = __webpack_require__(216);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_28__ngx_translate_core__ = __webpack_require__(30);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_29__ngx_translate_http_loader__ = __webpack_require__(309);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_29__ngx_translate_http_loader__ = __webpack_require__(310);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -1360,7 +1343,7 @@ AppModule = __decorate([
         ],
         providers: [
             __WEBPACK_IMPORTED_MODULE_20__providers_api__["a" /* Api */],
-            __WEBPACK_IMPORTED_MODULE_21__mocks_providers_items__["a" /* Items */],
+            __WEBPACK_IMPORTED_MODULE_21__providers_items__["a" /* Items */],
             __WEBPACK_IMPORTED_MODULE_23__providers_user__["a" /* User */],
             __WEBPACK_IMPORTED_MODULE_24__ionic_native_camera__["a" /* Camera */],
             __WEBPACK_IMPORTED_MODULE_25__ionic_native_google_maps__["a" /* GoogleMaps */],
@@ -1502,22 +1485,73 @@ MyApp = __decorate([
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
+/* unused harmony export LktAction */
+/* unused harmony export LktLucket */
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return LktLucketModel; });
+/**
+ * Created by pabloelustondo on 2017-09-02.
+ */
+var LktAction = (function () {
+    function LktAction() {
+    }
+    return LktAction;
+}());
+
+var LktLucket = (function () {
+    function LktLucket() {
+    }
+    return LktLucket;
+}());
+
+var LktLucketModel = (function () {
+    function LktLucketModel(luckets) {
+        this.luckets = luckets;
+    }
+    LktLucketModel.prototype.calculate = function () {
+        //this process will do calculations needed when some luckets have changed
+        //will also introduce some defaults
+    };
+    return LktLucketModel;
+}());
+
+//# sourceMappingURL=luckets.js.map
+
+/***/ }),
+
+/***/ 300:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return LktTestLuckets; });
 var LktTestLuckets = [
     {
+        "id": "life",
         "name": "Life",
+        "status": "green",
         "picture": "assets/img/factoryLuckets/life-icon.png",
         "description": "This Lucket represents all your life. The status, sizes that you see are being calculated based on your luckets below. Use this lucket to have a general sense of you today. ",
-        "dayAction": { description: "plan day, execute your best, close your day" },
-        "weekAction": { description: "Calm down, review / asses main luckets" }
+        "dayAction": { name: "name", description: "live your day to the fullest", points: 1, status: "red" },
+        "weekAction": { name: "name", description: "live your day to the fullest", points: 1, status: "yellow" },
+        "monthAction": { name: "name", description: "live your day to the fullest", points: 1, status: "red" },
+        "seasonAction": { name: "name", description: "live your day to the fullest", points: 1, status: "green" },
+        "yearAction": { name: "name", description: "live your day to the fullest", points: 1, status: "green" },
+        "year5Action": { name: "name", description: "live your day to the fullest", points: 1, status: "green" },
     },
     {
+        "id": "a1-mind",
         "name": "A1-Mind",
+        "status": "green",
         "picture": "assets/img/factoryLuckets/a1-mind.png",
         "description": "You mind is before anything, nothing should be done or plan\n        until your mind is on a resonable level of functioning and control",
         "comment": "any news / comments?",
-        "dayAction": { description: "Check active luckets" },
-        "weekAction": { description: "Get all my luckets into luckets" }
+        "dayAction": { name: "name", description: "Check active luckets",
+            points: 1,
+            status: "yellow" },
+        "weekAction": { name: "name", description: "Get all my luckets into luckets", points: 7, status: "green" },
+        "monthAction": { name: "name", description: "live your day to the fullest", points: 1, status: "white" },
+        "seasonAction": { name: "name", description: "live your day to the fullest", points: 1, status: "yellow" },
+        "yearAction": { name: "name", description: "live your day to the fullest", points: 1, status: "green" },
+        "year5Action": { name: "name", description: "live your day to the fullest", points: 1, status: "green" },
     }
 ];
 //# sourceMappingURL=testluckets.js.map
@@ -1563,11 +1597,11 @@ var Tab3Root = __WEBPACK_IMPORTED_MODULE_2__settings_settings__["a" /* SettingsP
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__user__ = __webpack_require__(55);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__api__ = __webpack_require__(114);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__settings__ = __webpack_require__(115);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__mocks_providers_items__ = __webpack_require__(223);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__items__ = __webpack_require__(223);
 /* unused harmony reexport User */
 /* unused harmony reexport Api */
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return __WEBPACK_IMPORTED_MODULE_2__settings__["a"]; });
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return __WEBPACK_IMPORTED_MODULE_3__mocks_providers_items__["a"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return __WEBPACK_IMPORTED_MODULE_3__items__["a"]; });
 
 
 

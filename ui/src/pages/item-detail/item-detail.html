@@ -11,14 +11,14 @@
   <div class="item-profile" text-center #profilePic [style.background-image]="'url(' + item.picture + ')'"></div>
   <div class="lucketStatusAndSensors">
   <div class="lucketStatuses">
-    <div class = "lucketStatus" ></div>
+    <div [class] = "'lucketStatus ' + item.status" ></div>
     <div class = "lucketStink" ></div>
-    <div class = "lucketStatus" ></div>
-    <div class = "lucketActionStatus" ></div>
-    <div class = "lucketActionStatus" ></div>
-    <div class = "lucketActionStatus" ></div>
-    <div class = "lucketStatus" ></div>
-    <div class = "lucketActionStatus" ></div>
+    <div [class] = "'lucketActionStatus ' + item.dayAction.status" ></div>
+    <div [class] = "'lucketActionStatus ' + item.weekAction.status" ></div>
+    <div [class] = "'lucketActionStatus ' + item.monthAction.status" ></div>
+    <div [class] = "'lucketActionStatus ' + item.seasonAction.status" ></div>
+    <div [class] = "'lucketActionStatus ' + item.yearAction.status" ></div>
+    <div [class] = "'lucketActionStatus ' + item.year5Action.status" ></div>
   </div>
   <div class="lucketSensors">  <!-- status row: status, stinky, actions/points -->
     <div class = "lucketSensorStatus" ></div>
