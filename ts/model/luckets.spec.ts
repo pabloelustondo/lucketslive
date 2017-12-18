@@ -4,7 +4,7 @@ import {LUCKETS} from './luckets.testdata'
 
 describe("Lucket", () => {
         it("it can be created", () => {
-            let lucket = new LktLucket({});
+            let lucket = new LktLucket();
         });
 });
 
