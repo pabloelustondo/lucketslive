@@ -18,23 +18,22 @@
   "TUTORIAL_CONTINUE_BUTTON" : "Continue",
 
   "TUTORIAL_SLIDE0_TITLE": "Hello, I'm Luckets.",
-  "TUTORIAL_SLIDE0_DESCRIPTION":"I'm a technologically advanced personal assistant, backed by data science and artificial intelligence, to help live happier and be better.",
+  "TUTORIAL_SLIDE0_DESCRIPTION":"I'm a technologically advanced personal assistant, powered by data science and artificial intelligence, to help you to live more balanced, successful and happy",
 
-  "TUTORIAL_SLIDE02_TITLE": "Ancient wisdom on future's technology",
-  "TUTORIAL_SLIDE02_DESCRIPTION":"I was built around time-tested principles for conducting a wise, balanced and good life; I combine many popular ideas from Epictetus' maxims to Stephen Covey's habits. I am a computer-based life-system that will help you thrive, enjoy more and even lead and help others",
+  "TUTORIAL_SLIDE02_TITLE": "A solid start and a path for continous improvement",
+  "TUTORIAL_SLIDE02_DESCRIPTION":"I was built around time-tested principles for conducting a wise and balanced life; borrowing from Epictetus, Stephen Covey and others. But that is just to start, over time, I will evolve to better serve you by adapting to your values, goals and habits.",
 
-  "TUTORIAL_SLIDE021_TITLE": "Also, I may help you managing manual productivity tools",
-  "TUTORIAL_SLIDE021_DESCRIPTION":"Like most humans in 2017, you may be using manual productivity tools, such as Google's Calendar, Email, Docs, Tasks, etc. If you do, I may help you accessing, integrating and managing those tools",
+  "TUTORIAL_SLIDE021_TITLE": "Integrated with popular productivity and wellbeing tools",
+  "TUTORIAL_SLIDE021_DESCRIPTION":"To make data entry easy, I will be able to read your productivity tools, such as Google Calendar, some popular fitness trackers, and other popular tools that you may be already using. Also, I will be able to help you managing some of those tools.",
 
-  "TUTORIAL_SLIDE03_TITLE": "A method and initial idea for a long life yourney",
-  "TUTORIAL_SLIDE03_DESCRIPTION":"I will summarize here our system through a series of conceptual points to give you an initial idea. However, Luckets is intended to be a long life journey of many daily steps, thinking, planning, collecting data, experimenting, interpreting feedback, learning and continuously improving. ",
+  "TUTORIAL_SLIDE03_TITLE": "Ok, here is a quick overview",
+  "TUTORIAL_SLIDE03_DESCRIPTION":"The next slides will summarize our system to give you an initial idea without tiring you with details. You will get into details during the journey",
 
-
-  "TUTORIAL_SLIDE1_TITLE": "1. Identify everything you want or should care in life.",
-  "TUTORIAL_SLIDE1_DESCRIPTION": "We are going to consider everything. Everything you care. To do that, I will start by proposing you the areas that most humans like you care about: health, family, your mind, money, friends, work, adventure, etc, plus some specific ones for you. Take your time, it's your life ",
+  "TUTORIAL_SLIDE1_TITLE": "1. Identify everything you care or do or should care in your life.",
+  "TUTORIAL_SLIDE1_DESCRIPTION": "Take a few moments and think about everything you care, do or should care in your life. Everything. Write down a list. Here is a hint: health, family, your mind, money, friends, home, work, learning, art, adventure, etc. Think long term, think life categories that defines you.",
 
   "TUTORIAL_SLIDE11_TITLE": "2. Organize everything you care into Luckets",
-  "TUTORIAL_SLIDE11_DESCRIPTION": "A 'Lucket', is a specific isolated 'life bucket' that represents one or more of those permanent life areas that you plan to care and improve over time. Our predefined Luckets will be fine most of the time. We may create specifics for you. You want to keep the number manageable; Our model luckets list has 24",
+  "TUTORIAL_SLIDE11_DESCRIPTION": "A 'Lucket', is a specific 'life bucket' that represents one or more of those things you care. I will propose you a starting point. Our proposed Luckets will be fine most of the time but you can add, modify or remove some until it represents your life exactly. Everything your ever do should fall into a Lucket",
 
 
   "TUTORIAL_SLIDE111_TITLE": "You life on Luckets",
@@ -55,13 +54,13 @@
 
 
 
-  "TUTORIAL_SLIDE3a_TITLE": "6. Size activities using units and patterns",
-  "TUTORIAL_SLIDE3a_DESCRIPTION": "Sizing is a critical fine art that can only be learnt by experimenting and doing. Luckets uses a simple, but powerful, way to size using units and pattern.'do 1 hour of gym 3 times a week', 'work at office 7 hours a day 5 times a week', etc. This point will take some time to master. I will help.",
+  "TUTORIAL_SLIDE3a_TITLE": "6. Size activities using a point system",
+  "TUTORIAL_SLIDE3a_DESCRIPTION": "Sizing is a critical fine art that can only be learnt by experimenting and doing. Luckets uses a simple, but powerful, idea: points. Think of a point some done that took less than 1 hour aprox. Assign points for what you can do during a day. Most ativities will span many days.",
   "TUTORIAL_SLIDE3a_EXAMPLE": "Example: Say you are assessing your action 'do gym for 30 mins 4 days a week'....to be continued",
 
 
 
-  "TUTORIAL_SLIDE3b_TITLE": "7. Day by day, pick from your week list",
+  "TUTORIAL_SLIDE3b_TITLE": "7. Plan your day based on your week goals",
   "TUTORIAL_SLIDE3b_DESCRIPTION": "Is hard to plan a really meaningful day. Some meetings need to be fixed..., but flexibility allows for better optimization and creativity. You cannot plan inspiration. So, together we will assess the day circumstances, your goals and your moods to decide the best to do that day.",
   "TUTORIAL_SLIDE3b_EXAMPLE": "Example: Say you are assessing your action 'do gym for 30 mins 4 days a week'....to be continued",
 

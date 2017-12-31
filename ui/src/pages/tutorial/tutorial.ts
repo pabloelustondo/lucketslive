@@ -96,11 +96,6 @@ export class TutorialPage {
             description: values.TUTORIAL_SLIDE11_DESCRIPTION,
           },
           {
-            title: values.TUTORIAL_SLIDE111_TITLE,
-            description: values.TUTORIAL_SLIDE111_DESCRIPTION,
-            image: 'assets/img/ica-slidebox-img-1.png',
-          },
-          {
             title: values.TUTORIAL_SLIDE12_TITLE,
             description: values.TUTORIAL_SLIDE12_DESCRIPTION
           },
