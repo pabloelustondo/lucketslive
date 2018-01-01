@@ -25356,6 +25356,17 @@ page-list-master .lucketStatus {
   display: inline-block;
 }
 
+page-list-master .lucketStinkDown {
+  border-color: red transparent transparent transparent;
+  border-style: solid;
+  border-width: 20px 10px 10px 10px;
+  height: 0px;
+  width: 0px;
+  -webkit-transform: translate(-3px, 10px);
+  transform: translate(-3px, 10px);
+  display: inline-block;
+}
+
 page-list-master .lucketStink {
   border-color: transparent transparent red transparent;
   border-style: solid;
@@ -25365,11 +25376,39 @@ page-list-master .lucketStink {
   display: inline-block;
 }
 
+page-list-master .lucketHabitBox {
+  height: 24px;
+  width: 20px;
+  display: inline-block;
+  border-color: transparent;
+  background: transparent;
+  border-style: solid;
+  border-width: 1px;
+  margin-right: 5px;
+}
+
+page-list-master .lucketHabitStrength {
+  width: 16px;
+  height: 16px;
+  background-color: red;
+  -webkit-transform: rotate(45deg) translate(4px, 2px);
+  transform: rotate(45deg) translate(4px, 2px);
+}
+
 page-list-master .lucketActionStatus {
   height: 20px;
   width: 20px;
   display: inline-block;
   border-color: black;
+  border-style: solid;
+  border-width: 1px;
+}
+
+page-list-master .lucketActionStatusBlank {
+  height: 20px;
+  width: 20px;
+  display: inline-block;
+  border-color: transparent;
   border-style: solid;
   border-width: 1px;
 }
@@ -25391,7 +25430,7 @@ page-list-master .lucketSensorStatus {
 }
 
 page-list-master .name {
-  width: 150px;
+  width: 120px;
   float: left;
   font-weight: 900;
   display: inline-block;
@@ -25399,6 +25438,7 @@ page-list-master .name {
 
 page-list-master .blue {
   background: blue;
+  color: white;
 }
 
 page-list-master .red {
@@ -25412,10 +25452,12 @@ page-list-master .yellow {
 
 page-list-master .green {
   background: green;
+  color: white;
 }
 
 page-list-master .black {
   background: black;
+  color: white;
 }
 
 page-list-master .white {
