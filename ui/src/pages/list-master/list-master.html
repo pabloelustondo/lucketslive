@@ -11,7 +11,6 @@
   </ion-navbar>
 
 </ion-header>
-
 <ion-content>
 
   <ion-list>
@@ -22,20 +21,17 @@
         </ion-avatar>
         <div >  <!-- status row: status, stinky, actions/points -->
           <div class = "lucketStatus" ></div>
-          <div class = "lucketStink" ></div>
-          <div class = "lucketStinkDown" ></div>
+          <div class = "lucketHabitBox" > <div class = "lucketHabitStrength" ></div></div>
           <div [class] = "'lucketActionStatus ' + item.dayAction.status" ></div>
           <div [class] = "'lucketActionStatus ' + item.weekAction.status" ></div>
           <div [class] = "'lucketActionStatus ' + item.monthAction.status" ></div>
-
           <div [class] = "'lucketActionStatus ' + item.seasonAction.status" ></div>
-          <div [class] = "'lucketActionStatus ' + item.yearAction.status" ></div>
+          <div class = "lucketStink" ></div>
+          <div class = "lucketStinkDown" ></div>
         </div>
         <table>
           <tr>
-            <td >
-              <div class = "lucketHabitBox" > <div class = "lucketHabitStrength" ></div></div>
-            </td><td>
+            <td>
             <div class = "name"><h2>{{item.name}}</h2></div>
             </td>
             <td >
@@ -47,7 +43,6 @@
         <p>{{item.comment}}</p>
         <ion-note item-end *ngIf="item.note">{{item.note}}</ion-note>
       </button>
-
       <ion-item-options>
         <button ion-button color="danger" (click)="deleteItem(item)">
           {{ 'DELETE_BUTTON' | translate }}
