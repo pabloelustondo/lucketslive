@@ -27,7 +27,7 @@ page-list-master {
     border-width: 20px 10px 10px 10px;
     height: 0px;
     width: 0px;
-    transform: translate(-9px, 10px);
+    transform: translate(0px, 10px);
 
     display: inline-block;
   }
@@ -40,7 +40,7 @@ page-list-master {
     border-width: 0px 10px 20px 10px;
     height: 0px;
     width: 0px;
-
+    transform: translate(-9px, 0px);
     display: inline-block;
   }
   .lucketHabitBox {
@@ -61,7 +61,7 @@ page-list-master {
     border-width: 1px;
     border-color: black;
     background-color: red;
-    transform: rotate(45deg) translate(4px, 2px);
+    transform: rotate(45deg) translate(4px, 3px);
   }
   .lucketActionStatus {
     height: 20px;

@@ -25362,8 +25362,8 @@ page-list-master .lucketStinkDown {
   border-width: 20px 10px 10px 10px;
   height: 0px;
   width: 0px;
-  -webkit-transform: translate(-9px, 10px);
-  transform: translate(-9px, 10px);
+  -webkit-transform: translate(0px, 10px);
+  transform: translate(0px, 10px);
   display: inline-block;
 }
 
@@ -25373,6 +25373,8 @@ page-list-master .lucketStink {
   border-width: 0px 10px 20px 10px;
   height: 0px;
   width: 0px;
+  -webkit-transform: translate(-9px, 0px);
+  transform: translate(-9px, 0px);
   display: inline-block;
 }
 
@@ -25394,8 +25396,8 @@ page-list-master .lucketHabitStrength {
   border-width: 1px;
   border-color: black;
   background-color: red;
-  -webkit-transform: rotate(45deg) translate(4px, 2px);
-  transform: rotate(45deg) translate(4px, 2px);
+  -webkit-transform: rotate(45deg) translate(4px, 3px);
+  transform: rotate(45deg) translate(4px, 3px);
 }
 
 page-list-master .lucketActionStatus {
