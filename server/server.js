@@ -21,6 +21,11 @@ app.get('/', function (req, res) {
     res.sendFile(__dirname + '/www/index.html')
 });
 
+app.post('/log', function (req, res) {
+    console.log("log");
+    res.send("Log");
+});
+
 app.use(express.static('www'));
 
 var server = app.listen(8081, function () {
