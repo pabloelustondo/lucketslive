@@ -28,7 +28,8 @@ app.get('/logs', function (req, res) {
 
        db.db('pme').collection('log').insert({log:'log', timestamp: new Date()}).then(
            (insertMessage) => {
-               db.db('pme').collection('log').find().toArray().then( (result) => {
+               //db.collection.find( { $query: {}, $orderby: { age : -1 } } )
+               db.db('pme').collection('log').find({$query: {}, $orderby: { timestamp : -1 }}).toArray().then( (result) => {
                    console.log("/log found:" + JSON.stringify(result));
                    res.end(JSON.stringify(result));
                });
