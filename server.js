@@ -46,7 +46,9 @@ app.get('/logs', function (req, res) {
 
 app.use(express.static('ui/www'));
 
-var server = app.listen(8081, function () {
+var port = process.env.PORT || 8081;
+
+var server = app.listen(port, function () {
     var host = server.address().address
     var port = server.address().port
 
