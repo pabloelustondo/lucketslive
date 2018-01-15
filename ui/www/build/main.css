@@ -25418,6 +25418,15 @@ page-list-master .lucketActionStatusBlank {
   border-width: 1px;
 }
 
+page-list-master .lucketActionStatusFiller {
+  height: 20px;
+  width: calc((100% - 220px)/2);
+  display: inline-block;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 1px;
+}
+
 page-list-master .lucketActionStatusFocus {
   height: 20px;
   font-weight: 900;

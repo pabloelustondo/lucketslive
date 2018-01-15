@@ -19,13 +19,16 @@
         <ion-avatar item-start>
           <img class = "picture" [src]="item.picture" />
         </ion-avatar>
-        <div >  <!-- status row: status, stinky, actions/points -->
+        <div>  <!-- status row: status, stinky, actions/points -->
           <div class = "lucketStatus" ></div>
           <div class = "lucketHabitBox" > <div class = "lucketHabitStrength" ></div></div>
+          <div class = "lucketActionStatusFiller"></div>
           <div [class] = "'lucketActionStatus ' + item.dayAction.status" ></div>
           <div [class] = "'lucketActionStatus ' + item.weekAction.status" ></div>
           <div [class] = "'lucketActionStatus ' + item.monthAction.status" ></div>
           <div [class] = "'lucketActionStatus ' + item.seasonAction.status" ></div>
+          <div [class] = "'lucketActionStatus ' + item.yearAction.status" ></div>
+          <div class = "lucketActionStatusFiller"></div>
           <div class = "lucketStinkDown" ></div>
           <div class = "lucketStink" ></div>
 

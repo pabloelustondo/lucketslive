@@ -9,8 +9,8 @@ export class LktAction {
     name: string;
     description?: string;
     comment?:string;
-    points: number;
-    status: LktStatus;
+    points?: number;
+    status?: LktStatus;
 }
 
 export class LktLucket {
@@ -18,14 +18,14 @@ export class LktLucket {
     name?: string;
     description?: string;
     comment?:string;
-    status: LktStatus;
+    status?: LktStatus;
     picture?: string;
-    dayAction: LktAction;
-    weekAction: LktAction;
-    monthAction: LktAction;
-    seasonAction: LktAction;
-    yearAction: LktAction;
-    year5Action: LktAction;
+    dayAction?: LktAction;
+    weekAction?: LktAction;
+    monthAction?: LktAction;
+    seasonAction?: LktAction;
+    yearAction?: LktAction;
+    year5Action?: LktAction;
 
 }
 
