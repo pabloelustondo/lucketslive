@@ -1,7 +1,7 @@
 page-list-master {
   .picture {
-    width: 60px;
-    height: 60px;
+    width: 50px;
+    height: 50px;
     border-radius: 0%;
   }
   .item-avatar  {
@@ -65,7 +65,7 @@ page-list-master {
   }
   .lucketActionStatus {
     height: 20px;
-    width: 20px;
+    width: 15px;
     display: inline-block;
     border-color: black;
     border-style: solid;
@@ -85,9 +85,6 @@ page-list-master {
     height: 20px;
     width: calc((100% - 220px)/2);;
     display: inline-block;
-    border-color: transparent;
-    border-style: solid;
-    border-width: 1px;
   }
 
 

@@ -9,8 +9,13 @@
   "SIGNUP": "Sign up",
 
   "TAB1_TITLE": "Think",
-  "TAB2_TITLE": "Plan",
-  "TAB3_TITLE": "Settings",
+  "TAB2_TITLE": "Do",
+  "TAB3_TITLE": "<",
+
+  "TAB4_TITLE": ">",
+  "TAB5_TITLE": "Close",
+  "TAB6_TITLE": "Eval",
+  "TAB7_TITLE": "Set",
 
   "MAP_TITLE": "Map",
 

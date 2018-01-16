@@ -13,5 +13,10 @@ export const MainPage = TabsPage;
 
 // The initial root pages for our tabs (remove if not using tabs)
 export const Tab1Root = ListMasterPage;
-export const Tab2Root = SearchPage;
-export const Tab3Root = SettingsPage;
+export const Tab2Root = ListMasterPage;
+export const Tab3Root = ListMasterPage;
+
+export const Tab4Root = ListMasterPage;
+export const Tab5Root = ListMasterPage;
+export const Tab6Root = ListMasterPage;
+export const Tab7Root = SettingsPage;
