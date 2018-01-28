@@ -3,13 +3,15 @@ var app = express();
 
 
 var mongouri = "mongodb://lucketsdb.documents.azure.com:10255/?ssl=true&replicaSet=globaldb";
+var mongouri = "mongodb://localhost:27017";
+
 
 var MongoClient = require('mongodb').MongoClient;
 
 var myCollection;
 
 MongoClient.connect(mongouri, {user: 'lucketsdb', password: 'A86RP7FEbffrMeWTB8KOm8KASejUvSHLVZG8kjfRpgnilgIOIdNrf5UDw98fob15PSW0GQBUMiuY1AAuoLoSgw=='}, function (err, db) {
-    db.close();
+   console.log("connected to DB");
 });
 
 

@@ -17,5 +17,8 @@
     "mocha": "^3.4.2",
     "ts-node": "^3.0.4",
     "typescript": "^2.3.4"
+  },
+  "dependencies": {
+    "mongodb": "^3.0.1"
   }
 }

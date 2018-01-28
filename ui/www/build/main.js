@@ -177,7 +177,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 var Api = (function () {
     function Api(http) {
         this.http = http;
-        this.url = 'https://example.com/api/v1';
+        this.url = 'http://localhost:8081/api';
     }
     Api.prototype.get = function (endpoint, params, options) {
         if (!options) {
