@@ -1,16 +1,29 @@
 import { expect, assert } from 'chai';
-import {LktLucketDB} from './lucketsdb';
+import {LktLucketUserDB} from './luckets_userdb';
 import {LktTestLuckets} from '../testdata/testluckets'
 
-describe("Lucket DB", () => {
+describe("Lucket User DB", () => {
 
     let dbconfig = "mongodb://localhost:27017";
     let userkey = "test";
     let lucketDB;
 
-        it("it can be created", () => {
-            lucketDB = new LktLucketDB(dbconfig, userkey);
-        });
+    it("it can be created", () => {
+            lucketDB = new LktLucketUserDB(dbconfig, userkey);
+    });
+
+    it("removes user if exists", (done) => {
+
+        lucketDB.deleteLucketsUser().then( (luckets) => {
+            expect(luckets).to.not.be.undefined;
+            done()
+        }).catch((err)=> {
+            expect(err).to.not.be.undefined;
+            expect(err.message).to.be.equal("ns not found");
+            done()
+        })
+    });
+
 
     it("drops database for user if exists, or says ns not found", (done) => {
 

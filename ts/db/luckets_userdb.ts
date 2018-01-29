@@ -4,7 +4,7 @@
 
 import { MongoClient, Db, Server } from "mongodb";
 
-export class LktLucketDB {
+export class LktLucketUserDB {
 
     private dbconfig = "mongodb://localhost:27017";
     private userkey = "test";
